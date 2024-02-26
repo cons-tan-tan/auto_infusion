@@ -8,6 +8,9 @@ import requests
 # from dotenv import load_dotenv
 # load_dotenv()
 
+print(os.getenv("MICROCMS_SERVICE_DOMAIN"))
+print(os.getenv("MICROCMS_API_KEY"))
+
 url = os.getenv("MICROCMS_SERVICE_DOMAIN")
 header= {
     "content-type": "application/json",
