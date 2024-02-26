@@ -2,10 +2,6 @@ name: Update Json
 
 on: workflow_dispatch
 
-env:
-  MICROCMS_SERVICE_DOMAIN: ${{ secrets.MICROCMS_SERVICE_DOMAIN }}
-  MICROCMS-API-KEY: ${{ secrets.MICROCMS-API-KEY }}
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,6 +11,9 @@ jobs:
     - name: Install modules
       run: pip install -r requirements.txt
     - name: Get Recipes
+      env:
+        MICROCMS_SERVICE_DOMAIN: ${{ secrets.MICROCMS_SERVICE_DOMAIN }}
+        MICROCMS-API-KEY: ${{ secrets.MICROCMS-API-KEY }}
       run: python request.py
     - name: Commit and Push
       run: |
