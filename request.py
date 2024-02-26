@@ -8,7 +8,7 @@ import requests
 from dotenv import load_dotenv
 load_dotenv()
 
-url = "https://auto-infusion.microcms.io/api/v1/recipes"
+url = os.getenv("MICROCMS_SERVICE_DOMAIN")
 header= {
     "content-type": "application/json",
     "X-MICROCMS-API-KEY": os.getenv("MICROCMS_API_KEY"),
