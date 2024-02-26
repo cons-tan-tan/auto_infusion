@@ -18,13 +18,13 @@ param = {
     "limit": 100,
 }
 
-test = requests.get(url, headers=header, params=param).json()
+result = requests.get(url, headers=header, params=param).json()
 
 data = []
 
-for i in range(test["totalCount"]):
+for i in range(result["totalCount"]):
     tmp = {}
-    recipe = test["contents"][i]
+    recipe = result["contents"][i]
     tmp["product"] = recipe["product"]
     tmp["amount"] = recipe["amount"][0]
     tmp["key"] = recipe["key"]
