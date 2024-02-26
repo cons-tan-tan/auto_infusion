@@ -187,7 +187,7 @@
     },
     {
         "product": "Ichor",
-        "amount": "1",
+        "amount": "2",
         "key": "Nether Shard",
         "sub": "Nether Star",
         "essentia": [
@@ -237,5 +237,5 @@
             }
         ]
     },
-    "2024-02-26 09:42:03"
+    "2024-02-26 09:42:52"
 ]
