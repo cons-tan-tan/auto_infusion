@@ -8,13 +8,13 @@ import requests
 # from dotenv import load_dotenv
 # load_dotenv()
 
-print(os.getenv("MICROCMS_SERVICE_DOMAIN"))
-print(os.getenv("MICROCMS_API_KEY"))
+print(os.environ.get("MICROCMS_SERVICE_DOMAIN"))
+print(os.environ.get("MICROCMS_API_KEY"))
 
-url = os.getenv("MICROCMS_SERVICE_DOMAIN")
+url = os.environ.get("MICROCMS_SERVICE_DOMAIN")
 header= {
     "content-type": "application/json",
-    "X-MICROCMS-API-KEY": os.getenv("MICROCMS_API_KEY"),
+    "X-MICROCMS-API-KEY": os.environ.get("MICROCMS_API_KEY"),
 }
 param = {
     "fields": "product,amount,key,sub.key,essentia.name",
