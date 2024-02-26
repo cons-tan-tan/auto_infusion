@@ -1,6 +1,9 @@
 name: Update Json
 
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
+  repository_dispatch:
+    types: [update-recipes]
 
 jobs:
   build:
