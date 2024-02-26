@@ -1,0 +1,240 @@
+[
+    {
+        "product": "Octuple Compressed Solar",
+        "amount": "1",
+        "key": "Quantum Core",
+        "essentia": [
+            {
+                "aspect": "Aer",
+                "amount": 4800
+            },
+            {
+                "aspect": "Terra",
+                "amount": 4800
+            },
+            {
+                "aspect": "Ignis",
+                "amount": 4800
+            },
+            {
+                "aspect": "Aqua",
+                "amount": 4800
+            },
+            {
+                "aspect": "Ordo",
+                "amount": 4800
+            },
+            {
+                "aspect": "Perditio",
+                "amount": 4800
+            }
+        ]
+    },
+    {
+        "product": "Septuple Compressed Solar",
+        "amount": "1",
+        "key": "Irradiant Reinforced Neutronium Plate",
+        "essentia": [
+            {
+                "aspect": "Aer",
+                "amount": 2400
+            },
+            {
+                "aspect": "Terra",
+                "amount": 2400
+            },
+            {
+                "aspect": "Ignis",
+                "amount": 2400
+            },
+            {
+                "aspect": "Aqua",
+                "amount": 2400
+            },
+            {
+                "aspect": "Ordo",
+                "amount": 2400
+            },
+            {
+                "aspect": "Perditio",
+                "amount": 2400
+            }
+        ]
+    },
+    {
+        "product": "Sextuple Compressed Solar",
+        "amount": "1",
+        "key": "Irradiant Reinforced Naquadria Plate",
+        "essentia": [
+            {
+                "aspect": "Aer",
+                "amount": 1200
+            },
+            {
+                "aspect": "Terra",
+                "amount": 1200
+            },
+            {
+                "aspect": "Ignis",
+                "amount": 1200
+            },
+            {
+                "aspect": "Aqua",
+                "amount": 1200
+            },
+            {
+                "aspect": "Ordo",
+                "amount": 1200
+            },
+            {
+                "aspect": "Perditio",
+                "amount": 1200
+            }
+        ]
+    },
+    {
+        "product": "Quintuple Compressed Solar",
+        "amount": "1",
+        "key": "Irradiant Reinforced Plate",
+        "essentia": [
+            {
+                "aspect": "Aer",
+                "amount": 600
+            },
+            {
+                "aspect": "Terra",
+                "amount": 600
+            },
+            {
+                "aspect": "Ignis",
+                "amount": 600
+            },
+            {
+                "aspect": "Aqua",
+                "amount": 600
+            },
+            {
+                "aspect": "Ordo",
+                "amount": 600
+            },
+            {
+                "aspect": "Perditio",
+                "amount": 600
+            }
+        ]
+    },
+    {
+        "product": "Quadruple Compressed Solar",
+        "amount": "1",
+        "key": "Irradiant Reinforced Chrome Plate",
+        "essentia": [
+            {
+                "aspect": "Aer",
+                "amount": 300
+            },
+            {
+                "aspect": "Terra",
+                "amount": 300
+            },
+            {
+                "aspect": "Ignis",
+                "amount": 300
+            },
+            {
+                "aspect": "Aqua",
+                "amount": 300
+            },
+            {
+                "aspect": "Ordo",
+                "amount": 300
+            },
+            {
+                "aspect": "Perditio",
+                "amount": 300
+            }
+        ]
+    },
+    {
+        "product": "Triple Compressed Solar Panel",
+        "amount": "1",
+        "key": "Irradiant Reinforced Tungsten-Steel Plate",
+        "essentia": [
+            {
+                "aspect": "Aer",
+                "amount": 150
+            },
+            {
+                "aspect": "Terra",
+                "amount": 150
+            },
+            {
+                "aspect": "Ignis",
+                "amount": 150
+            },
+            {
+                "aspect": "Aqua",
+                "amount": 150
+            },
+            {
+                "aspect": "Ordo",
+                "amount": 150
+            },
+            {
+                "aspect": "Perditio",
+                "amount": 150
+            }
+        ]
+    },
+    {
+        "product": "Ichor",
+        "amount": "2",
+        "key": "Nether Shard",
+        "sub": "Nether Star",
+        "essentia": [
+            {
+                "aspect": "Spiritus",
+                "amount": 64
+            },
+            {
+                "aspect": "Humanus",
+                "amount": 32
+            },
+            {
+                "aspect": "Lux",
+                "amount": 32
+            },
+            {
+                "aspect": "Alienis",
+                "amount": 16
+            },
+            {
+                "aspect": "Ordo",
+                "amount": 16
+            }
+        ]
+    },
+    {
+        "product": "Pure Tear",
+        "amount": "1",
+        "key": "Ichorium Ingot",
+        "sub": "Nether Star",
+        "essentia": [
+            {
+                "aspect": "Alienis",
+                "amount": 32
+            },
+            {
+                "aspect": "Permutatio",
+                "amount": 32
+            },
+            {
+                "aspect": "Praecantatio",
+                "amount": 16
+            },
+            {
+                "aspect": "Sano",
+                "amount": 16
+            }
+        ]
+    }
+]
