@@ -1,0 +1,16 @@
+name: Update Json
+
+on: workflow_dispatch
+
+env:
+  MICROCMS_SERVICE_DOMAIN: ${{ secrets.MICROCMS_SERVICE_DOMAIN }}
+  MICROCMS-API-KEY: ${{ secrets.MICROCMS-API-KEY }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Check Python
+      run: python --version
