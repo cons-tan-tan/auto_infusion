@@ -1,6 +1,41 @@
 {
     "recipe": [
         {
+            "product": "Essentia Provider",
+            "amount": "1",
+            "key": "ME Interface",
+            "essentia": [
+                {
+                    "aspect": "Machina",
+                    "amount": 64
+                },
+                {
+                    "aspect": "Praecantatio",
+                    "amount": 48
+                },
+                {
+                    "aspect": "Ordo",
+                    "amount": 32
+                },
+                {
+                    "aspect": "Permutatio",
+                    "amount": 24
+                },
+                {
+                    "aspect": "Aqua",
+                    "amount": 16
+                },
+                {
+                    "aspect": "Cognitio",
+                    "amount": 8
+                },
+                {
+                    "aspect": "Lucrum",
+                    "amount": 4
+                }
+            ]
+        },
+        {
             "product": "Octuple Compressed Solar",
             "amount": "1",
             "key": "Quantum Core",
@@ -242,5 +277,5 @@
     "sub": [
         "Nether Star"
     ],
-    "updated_at": "2024-03-03 13:07:45"
+    "updated_at": "2024-03-03 20:45:22"
 }
