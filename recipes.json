@@ -1,6 +1,29 @@
 {
     "recipe": [
         {
+            "product": "Advanced Node Stabilizer",
+            "amount": "1",
+            "key": "Node Stabilizer",
+            "essentia": [
+                {
+                    "aspect": "Auram",
+                    "amount": 32
+                },
+                {
+                    "aspect": "Ordo",
+                    "amount": 32
+                },
+                {
+                    "aspect": "Potentia",
+                    "amount": 32
+                },
+                {
+                    "aspect": "Praecantatio",
+                    "amount": 32
+                }
+            ]
+        },
+        {
             "product": "Node Manipulator",
             "amount": "1",
             "key": "Node Transducer",
@@ -308,5 +331,5 @@
     "sub": [
         "Nether Star"
     ],
-    "updated_at": "2024-03-03 20:51:05"
+    "updated_at": "2024-03-03 20:52:39"
 }
