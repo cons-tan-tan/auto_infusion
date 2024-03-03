@@ -1,6 +1,41 @@
 {
     "recipe": [
         {
+            "product": "Silverwood Rod",
+            "amount": "1",
+            "key": "Silverwood Log",
+            "essentia": [
+                {
+                    "aspect": "Aer",
+                    "amount": 48
+                },
+                {
+                    "aspect": "Aqua",
+                    "amount": 48
+                },
+                {
+                    "aspect": "Ignis",
+                    "amount": 48
+                },
+                {
+                    "aspect": "Ordo",
+                    "amount": 48
+                },
+                {
+                    "aspect": "Perditio",
+                    "amount": 48
+                },
+                {
+                    "aspect": "Praecantatio",
+                    "amount": 48
+                },
+                {
+                    "aspect": "Terra",
+                    "amount": 48
+                }
+            ]
+        },
+        {
             "product": "Flux Scrubber",
             "amount": "1",
             "key": "Arcane Bellows",
@@ -358,5 +393,5 @@
     "sub": [
         "Nether Star"
     ],
-    "updated_at": "2024-03-03 20:54:07"
+    "updated_at": "2024-03-03 20:57:20"
 }
