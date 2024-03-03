@@ -20,7 +20,9 @@ param = {
 
 result = requests.get(url, headers=header, params=param).json()
 
-data = []
+data = {}
+data["recipe"] = []
+sub = set()
 
 for i in range(result["totalCount"]):
     tmp = {}
@@ -30,6 +32,7 @@ for i in range(result["totalCount"]):
     tmp["key"] = recipe["key"]
     if recipe["sub"] != None:
         tmp["sub"] = recipe["sub"]["key"]
+        sub.add(recipe["sub"]["key"])
     essentia = []
     for j in range(len(recipe["essentia"])):
         tmp1 = {}
@@ -37,8 +40,10 @@ for i in range(result["totalCount"]):
         tmp1["amount"] = recipe["essentia"][j]["amount"]
         essentia.append(tmp1)
     tmp["essentia"] = essentia
-    data.append(tmp)
-data.append(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+    data["recipe"].append(tmp)
+
+data["sub"] = list(sub)
+data["updated_at"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 f = open('recipes.json', 'w')
 f.write(json.dumps(data, indent=4))
