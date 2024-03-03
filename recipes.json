@@ -1,6 +1,33 @@
 {
     "recipe": [
         {
+            "product": "Flux Scrubber",
+            "amount": "1",
+            "key": "Arcane Bellows",
+            "essentia": [
+                {
+                    "aspect": "Aqua",
+                    "amount": 25
+                },
+                {
+                    "aspect": "Aer",
+                    "amount": 20
+                },
+                {
+                    "aspect": "Praecantatio",
+                    "amount": 15
+                },
+                {
+                    "aspect": "Vinculum",
+                    "amount": 10
+                },
+                {
+                    "aspect": "Vitium",
+                    "amount": 5
+                }
+            ]
+        },
+        {
             "product": "Advanced Node Stabilizer",
             "amount": "1",
             "key": "Node Stabilizer",
@@ -331,5 +358,5 @@
     "sub": [
         "Nether Star"
     ],
-    "updated_at": "2024-03-03 20:52:39"
+    "updated_at": "2024-03-03 20:54:07"
 }
