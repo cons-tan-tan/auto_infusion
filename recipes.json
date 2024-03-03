@@ -1,6 +1,37 @@
 {
     "recipe": [
         {
+            "product": "Node Manipulator",
+            "amount": "1",
+            "key": "Node Transducer",
+            "essentia": [
+                {
+                    "aspect": "Alienis",
+                    "amount": 64
+                },
+                {
+                    "aspect": "Auram",
+                    "amount": 48
+                },
+                {
+                    "aspect": "Praecantatio",
+                    "amount": 40
+                },
+                {
+                    "aspect": "Potentia",
+                    "amount": 32
+                },
+                {
+                    "aspect": "Vacuos",
+                    "amount": 32
+                },
+                {
+                    "aspect": "Tenebrae",
+                    "amount": 24
+                }
+            ]
+        },
+        {
             "product": "Essentia Provider",
             "amount": "1",
             "key": "ME Interface",
@@ -277,5 +308,5 @@
     "sub": [
         "Nether Star"
     ],
-    "updated_at": "2024-03-03 20:45:22"
+    "updated_at": "2024-03-03 20:51:05"
 }
