@@ -22,10 +22,10 @@ local function isActive()
     return rs.getOutput(direction.redstone) > 0
 end
 
-local function isFine()
+local function isReady()
     local vis = invoke(adress, "getStackInSlot", direction.transposer, 1).aspects
     for i=1, 6 do
-        if vis[i].amount <= 1000 then --centi-vis単位
+        if vis[i].amount <= 1000 then -- centi-vis単位
             return false
         end
     end
@@ -36,5 +36,5 @@ return {
     init = init,
     trigger = trigger,
     isActive = isActive,
-    isFine = isFine
+    isFine = isReady
 }
