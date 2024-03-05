@@ -21,10 +21,8 @@ function isActive()
 end
 
 
-local craw = {
+return {
     init = init,
     trigger = trigger,
     isActive = isActive
 }
-
-return craw
