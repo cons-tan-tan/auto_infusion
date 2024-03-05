@@ -9,15 +9,15 @@ local direction = {
 
 
 function init()
-    rs.setOutput(direction, 0)
+    rs.setOutput(direction.redstone, 0)
 end
 
 function trigger()
-    rs.setOutput(direction, 15)
+    rs.setOutput(direction.redstone, 15)
 end
 
 function isActive()
-    return rs.getOutput(direction) > 0
+    return rs.getOutput(direction.redstone) > 0
 end
 
 
