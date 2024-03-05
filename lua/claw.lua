@@ -3,21 +3,21 @@ local rs = component.redstone
 
 
 local direction = {
-    redstone = os.getenv("CRAW_REDSTONE_DIRECTION"),
-    transposer = os.getenv("CRAW_TRANSPOSER_DIRECTION")
+    redstone = tonumber(os.getenv("CRAW_REDSTONE_DIRECTION")),
+    transposer = tonumber(os.getenv("CRAW_TRANSPOSER_DIRECTION"))
 }
 
 
 function init()
-    rs.setOutput(tonumber(direction.redstone), 0)
+    rs.setOutput(direction.redstone, 0)
 end
 
 function trigger()
-    rs.setOutput(tonumber(direction.redstone), 15)
+    rs.setOutput(direction.redstone), 15
 end
 
 function isActive()
-    return rs.getOutput(tonumber(direction.redstone)) > 0
+    return rs.getOutput(direction.redstone) > 0
 end
 
 
