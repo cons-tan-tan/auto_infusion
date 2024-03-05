@@ -3,7 +3,7 @@ local rs = component.redstone
 
 
 local direction = {
-    redstone = os.getenv("CRAW_REDSTONE_DIRECTION")
+    redstone = os.getenv("CRAW_REDSTONE_DIRECTION"),
     transposer = os.getenv("CRAW_TRANSPOSER_DIRECTION")
 }
 
