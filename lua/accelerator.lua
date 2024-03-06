@@ -2,23 +2,23 @@ local component = require("component")
 local invoke = component.invoke
 
 local adress = {
-    "d1985e11-7004-4126-80e0-8bc13b9410cc",
-    "6efadad3-4279-406d-8b03-56f0959c96d1"
+    os.getenv("CLAW_ACCELERATOR_ADRESS"),
+    os.getenv("MATRIX_ACCELERATOR_ADRESS")
 }
 
-local function setOn()
+local function turnOn()
     for i=1, #adress do
         invoke(adress[i], "setWorkAllowed", true)
     end
 end
 
-local function setOff()
+local function turnOff()
     for i=1, #adress do
         invoke(adress[i], "setWorkAllowed", false)
     end
 end
 
 return {
-    setOn = setOn,
-    setOff = setOff
+    turnOn = turnOn,
+    turnOff = turnOff
 }
