@@ -5,31 +5,31 @@
             "amount": "1",
             "essentia": [
                 {
-                    "aspect": "Aer",
+                    "aspect": "aer",
                     "amount": 48
                 },
                 {
-                    "aspect": "Aqua",
+                    "aspect": "aqua",
                     "amount": 48
                 },
                 {
-                    "aspect": "Ignis",
+                    "aspect": "ignis",
                     "amount": 48
                 },
                 {
-                    "aspect": "Ordo",
+                    "aspect": "ordo",
                     "amount": 48
                 },
                 {
-                    "aspect": "Perditio",
+                    "aspect": "perditio",
                     "amount": 48
                 },
                 {
-                    "aspect": "Praecantatio",
+                    "aspect": "praecantatio",
                     "amount": 48
                 },
                 {
-                    "aspect": "Terra",
+                    "aspect": "terra",
                     "amount": 48
                 }
             ]
@@ -39,23 +39,23 @@
             "amount": "1",
             "essentia": [
                 {
-                    "aspect": "Aqua",
+                    "aspect": "aqua",
                     "amount": 25
                 },
                 {
-                    "aspect": "Aer",
+                    "aspect": "aer",
                     "amount": 20
                 },
                 {
-                    "aspect": "Praecantatio",
+                    "aspect": "praecantatio",
                     "amount": 15
                 },
                 {
-                    "aspect": "Vinculum",
+                    "aspect": "vinculum",
                     "amount": 10
                 },
                 {
-                    "aspect": "Vitium",
+                    "aspect": "vitium",
                     "amount": 5
                 }
             ]
@@ -65,19 +65,19 @@
             "amount": "1",
             "essentia": [
                 {
-                    "aspect": "Auram",
+                    "aspect": "auram",
                     "amount": 32
                 },
                 {
-                    "aspect": "Ordo",
+                    "aspect": "ordo",
                     "amount": 32
                 },
                 {
-                    "aspect": "Potentia",
+                    "aspect": "potentia",
                     "amount": 32
                 },
                 {
-                    "aspect": "Praecantatio",
+                    "aspect": "praecantatio",
                     "amount": 32
                 }
             ]
@@ -87,27 +87,27 @@
             "amount": "1",
             "essentia": [
                 {
-                    "aspect": "Alienis",
+                    "aspect": "alienis",
                     "amount": 64
                 },
                 {
-                    "aspect": "Auram",
+                    "aspect": "auram",
                     "amount": 48
                 },
                 {
-                    "aspect": "Praecantatio",
+                    "aspect": "praecantatio",
                     "amount": 40
                 },
                 {
-                    "aspect": "Potentia",
+                    "aspect": "potentia",
                     "amount": 32
                 },
                 {
-                    "aspect": "Vacuos",
+                    "aspect": "vacuos",
                     "amount": 32
                 },
                 {
-                    "aspect": "Tenebrae",
+                    "aspect": "tenebrae",
                     "amount": 24
                 }
             ]
@@ -117,31 +117,31 @@
             "amount": "1",
             "essentia": [
                 {
-                    "aspect": "Machina",
+                    "aspect": "machina",
                     "amount": 64
                 },
                 {
-                    "aspect": "Praecantatio",
+                    "aspect": "praecantatio",
                     "amount": 48
                 },
                 {
-                    "aspect": "Ordo",
+                    "aspect": "ordo",
                     "amount": 32
                 },
                 {
-                    "aspect": "Permutatio",
+                    "aspect": "permutatio",
                     "amount": 24
                 },
                 {
-                    "aspect": "Aqua",
+                    "aspect": "aqua",
                     "amount": 16
                 },
                 {
-                    "aspect": "Cognitio",
+                    "aspect": "cognitio",
                     "amount": 8
                 },
                 {
-                    "aspect": "Lucrum",
+                    "aspect": "lucrum",
                     "amount": 4
                 }
             ]
@@ -151,27 +151,27 @@
             "amount": "1",
             "essentia": [
                 {
-                    "aspect": "Aer",
+                    "aspect": "aer",
                     "amount": 4800
                 },
                 {
-                    "aspect": "Terra",
+                    "aspect": "terra",
                     "amount": 4800
                 },
                 {
-                    "aspect": "Ignis",
+                    "aspect": "ignis",
                     "amount": 4800
                 },
                 {
-                    "aspect": "Aqua",
+                    "aspect": "aqua",
                     "amount": 4800
                 },
                 {
-                    "aspect": "Ordo",
+                    "aspect": "ordo",
                     "amount": 4800
                 },
                 {
-                    "aspect": "Perditio",
+                    "aspect": "perditio",
                     "amount": 4800
                 }
             ]
@@ -181,27 +181,27 @@
             "amount": "1",
             "essentia": [
                 {
-                    "aspect": "Aer",
+                    "aspect": "aer",
                     "amount": 2400
                 },
                 {
-                    "aspect": "Terra",
+                    "aspect": "terra",
                     "amount": 2400
                 },
                 {
-                    "aspect": "Ignis",
+                    "aspect": "ignis",
                     "amount": 2400
                 },
                 {
-                    "aspect": "Aqua",
+                    "aspect": "aqua",
                     "amount": 2400
                 },
                 {
-                    "aspect": "Ordo",
+                    "aspect": "ordo",
                     "amount": 2400
                 },
                 {
-                    "aspect": "Perditio",
+                    "aspect": "perditio",
                     "amount": 2400
                 }
             ]
@@ -211,27 +211,27 @@
             "amount": "1",
             "essentia": [
                 {
-                    "aspect": "Aer",
+                    "aspect": "aer",
                     "amount": 1200
                 },
                 {
-                    "aspect": "Terra",
+                    "aspect": "terra",
                     "amount": 1200
                 },
                 {
-                    "aspect": "Ignis",
+                    "aspect": "ignis",
                     "amount": 1200
                 },
                 {
-                    "aspect": "Aqua",
+                    "aspect": "aqua",
                     "amount": 1200
                 },
                 {
-                    "aspect": "Ordo",
+                    "aspect": "ordo",
                     "amount": 1200
                 },
                 {
-                    "aspect": "Perditio",
+                    "aspect": "perditio",
                     "amount": 1200
                 }
             ]
@@ -241,27 +241,27 @@
             "amount": "1",
             "essentia": [
                 {
-                    "aspect": "Aer",
+                    "aspect": "aer",
                     "amount": 600
                 },
                 {
-                    "aspect": "Terra",
+                    "aspect": "terra",
                     "amount": 600
                 },
                 {
-                    "aspect": "Ignis",
+                    "aspect": "ignis",
                     "amount": 600
                 },
                 {
-                    "aspect": "Aqua",
+                    "aspect": "aqua",
                     "amount": 600
                 },
                 {
-                    "aspect": "Ordo",
+                    "aspect": "ordo",
                     "amount": 600
                 },
                 {
-                    "aspect": "Perditio",
+                    "aspect": "perditio",
                     "amount": 600
                 }
             ]
@@ -271,27 +271,27 @@
             "amount": "1",
             "essentia": [
                 {
-                    "aspect": "Aer",
+                    "aspect": "aer",
                     "amount": 300
                 },
                 {
-                    "aspect": "Terra",
+                    "aspect": "terra",
                     "amount": 300
                 },
                 {
-                    "aspect": "Ignis",
+                    "aspect": "ignis",
                     "amount": 300
                 },
                 {
-                    "aspect": "Aqua",
+                    "aspect": "aqua",
                     "amount": 300
                 },
                 {
-                    "aspect": "Ordo",
+                    "aspect": "ordo",
                     "amount": 300
                 },
                 {
-                    "aspect": "Perditio",
+                    "aspect": "perditio",
                     "amount": 300
                 }
             ]
@@ -301,27 +301,27 @@
             "amount": "1",
             "essentia": [
                 {
-                    "aspect": "Aer",
+                    "aspect": "aer",
                     "amount": 150
                 },
                 {
-                    "aspect": "Terra",
+                    "aspect": "terra",
                     "amount": 150
                 },
                 {
-                    "aspect": "Ignis",
+                    "aspect": "ignis",
                     "amount": 150
                 },
                 {
-                    "aspect": "Aqua",
+                    "aspect": "aqua",
                     "amount": 150
                 },
                 {
-                    "aspect": "Ordo",
+                    "aspect": "ordo",
                     "amount": 150
                 },
                 {
-                    "aspect": "Perditio",
+                    "aspect": "perditio",
                     "amount": 150
                 }
             ]
@@ -332,23 +332,23 @@
             "sub": "Nether Star",
             "essentia": [
                 {
-                    "aspect": "Spiritus",
+                    "aspect": "spiritus",
                     "amount": 64
                 },
                 {
-                    "aspect": "Humanus",
+                    "aspect": "humanus",
                     "amount": 32
                 },
                 {
-                    "aspect": "Lux",
+                    "aspect": "lux",
                     "amount": 32
                 },
                 {
-                    "aspect": "Alienis",
+                    "aspect": "alienis",
                     "amount": 16
                 },
                 {
-                    "aspect": "Ordo",
+                    "aspect": "ordo",
                     "amount": 16
                 }
             ]
@@ -359,19 +359,19 @@
             "sub": "Nether Star",
             "essentia": [
                 {
-                    "aspect": "Alienis",
+                    "aspect": "alienis",
                     "amount": 32
                 },
                 {
-                    "aspect": "Permutatio",
+                    "aspect": "permutatio",
                     "amount": 32
                 },
                 {
-                    "aspect": "Praecantatio",
+                    "aspect": "praecantatio",
                     "amount": 16
                 },
                 {
-                    "aspect": "Sano",
+                    "aspect": "sano",
                     "amount": 16
                 }
             ]
@@ -380,5 +380,5 @@
     "sub": {
         "Nether Star": true
     },
-    "updated_at": "2024-03-07 04:30:36"
+    "updated_at": "2024-03-07 07:48:53"
 }

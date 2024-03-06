@@ -29,14 +29,13 @@ for i in range(result["totalCount"]):
     recipe = result["contents"][i]
     tmp["product"] = recipe["product"]
     tmp["amount"] = recipe["amount"][0]
-    # tmp["key"] = recipe["key"]
     if recipe["sub"] != None:
         tmp["sub"] = recipe["sub"]["key"]
         sub[recipe["sub"]["key"]] = True
     essentia = []
     for j in range(len(recipe["essentia"])):
         tmp1 = {}
-        tmp1["aspect"] = recipe["essentia"][j]["aspect"]["name"]
+        tmp1["aspect"] = recipe["essentia"][j]["aspect"]["name"].lower()
         tmp1["amount"] = recipe["essentia"][j]["amount"]
         essentia.append(tmp1)
     tmp["essentia"] = essentia
