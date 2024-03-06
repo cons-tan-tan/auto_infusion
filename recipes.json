@@ -1,9 +1,8 @@
 {
-    "recipe": [
-        {
+    "recipe": {
+        "Silverwood Log": {
             "product": "Silverwood Rod",
             "amount": "1",
-            "key": "Silverwood Log",
             "essentia": [
                 {
                     "aspect": "Aer",
@@ -35,10 +34,9 @@
                 }
             ]
         },
-        {
+        "Arcane Bellows": {
             "product": "Flux Scrubber",
             "amount": "1",
-            "key": "Arcane Bellows",
             "essentia": [
                 {
                     "aspect": "Aqua",
@@ -62,10 +60,9 @@
                 }
             ]
         },
-        {
+        "Node Stabilizer": {
             "product": "Advanced Node Stabilizer",
             "amount": "1",
-            "key": "Node Stabilizer",
             "essentia": [
                 {
                     "aspect": "Auram",
@@ -85,10 +82,9 @@
                 }
             ]
         },
-        {
+        "Node Transducer": {
             "product": "Node Manipulator",
             "amount": "1",
-            "key": "Node Transducer",
             "essentia": [
                 {
                     "aspect": "Alienis",
@@ -116,10 +112,9 @@
                 }
             ]
         },
-        {
+        "ME Interface": {
             "product": "Essentia Provider",
             "amount": "1",
-            "key": "ME Interface",
             "essentia": [
                 {
                     "aspect": "Machina",
@@ -151,10 +146,9 @@
                 }
             ]
         },
-        {
+        "Quantum Core": {
             "product": "Octuple Compressed Solar",
             "amount": "1",
-            "key": "Quantum Core",
             "essentia": [
                 {
                     "aspect": "Aer",
@@ -182,10 +176,9 @@
                 }
             ]
         },
-        {
+        "Irradiant Reinforced Neutronium Plate": {
             "product": "Septuple Compressed Solar",
             "amount": "1",
-            "key": "Irradiant Reinforced Neutronium Plate",
             "essentia": [
                 {
                     "aspect": "Aer",
@@ -213,10 +206,9 @@
                 }
             ]
         },
-        {
+        "Irradiant Reinforced Naquadria Plate": {
             "product": "Sextuple Compressed Solar",
             "amount": "1",
-            "key": "Irradiant Reinforced Naquadria Plate",
             "essentia": [
                 {
                     "aspect": "Aer",
@@ -244,10 +236,9 @@
                 }
             ]
         },
-        {
+        "Irradiant Reinforced Plate": {
             "product": "Quintuple Compressed Solar",
             "amount": "1",
-            "key": "Irradiant Reinforced Plate",
             "essentia": [
                 {
                     "aspect": "Aer",
@@ -275,10 +266,9 @@
                 }
             ]
         },
-        {
+        "Irradiant Reinforced Chrome Plate": {
             "product": "Quadruple Compressed Solar",
             "amount": "1",
-            "key": "Irradiant Reinforced Chrome Plate",
             "essentia": [
                 {
                     "aspect": "Aer",
@@ -306,10 +296,9 @@
                 }
             ]
         },
-        {
+        "Irradiant Reinforced Tungsten-Steel Plate": {
             "product": "Triple Compressed Solar Panel",
             "amount": "1",
-            "key": "Irradiant Reinforced Tungsten-Steel Plate",
             "essentia": [
                 {
                     "aspect": "Aer",
@@ -337,10 +326,9 @@
                 }
             ]
         },
-        {
+        "Nether Shard": {
             "product": "Ichor",
             "amount": "2",
-            "key": "Nether Shard",
             "sub": "Nether Star",
             "essentia": [
                 {
@@ -365,10 +353,9 @@
                 }
             ]
         },
-        {
+        "Ichorium Ingot": {
             "product": "Pure Tear",
             "amount": "1",
-            "key": "Ichorium Ingot",
             "sub": "Nether Star",
             "essentia": [
                 {
@@ -389,9 +376,9 @@
                 }
             ]
         }
-    ],
-    "sub": [
-        "Nether Star"
-    ],
-    "updated_at": "2024-03-03 20:57:20"
+    },
+    "sub": {
+        "Nether Star": true
+    },
+    "updated_at": "2024-03-07 04:30:36"
 }
