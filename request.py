@@ -28,7 +28,7 @@ for i in range(result["totalCount"]):
     tmp = {}
     recipe = result["contents"][i]
     tmp["product"] = recipe["product"]
-    tmp["amount"] = recipe["amount"][0]
+    tmp["amount"] = int(recipe["amount"][0])
     if recipe["sub"] != None:
         tmp["sub"] = recipe["sub"]["key"]
         sub[recipe["sub"]["key"]] = True
