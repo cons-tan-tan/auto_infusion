@@ -98,6 +98,6 @@ while true do
         os.sleep(1)
     end
 
-    infusion(data.product, data.amount)
+    infusion(data.product)
     ::continue::
 end
