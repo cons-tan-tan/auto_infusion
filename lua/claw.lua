@@ -32,10 +32,19 @@ local function isReady()
     return true
 end
 
+local function waitForReady()
+    print("waiting for claw to be ready")
+    while not isReady() do
+        os.sleep(1)
+    end
+    print("claw is ready")
+end
+
 init()
 return {
     init = init,
     trigger = trigger,
     isActive = isActive,
-    isFine = isReady
+    isFine = isReady,
+    waitForReady = waitForReady
 }
