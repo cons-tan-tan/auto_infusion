@@ -32,6 +32,7 @@ local function isReady()
     return true
 end
 
+init()
 return {
     init = init,
     trigger = trigger,
