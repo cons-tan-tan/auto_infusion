@@ -84,7 +84,9 @@ thread.create(function()
 end)
 
 recipe.update()
-
+rs.setOutput(direction, 0)
+accelerator.turnOff()
+claw.init()
 while true do
     if not claw.isFine() then
         claw.waitForReady()
