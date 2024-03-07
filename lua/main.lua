@@ -19,7 +19,7 @@ local command
 local command_list = {}
 
 local function exportRemainings()
-    if pedestal.getCenterItem() == nil and #controller.getItemsInNetwork() >= 1 then
+    if #controller.getItemsInNetwork() >= 1 then
         rs.setOutput(direction, 15)
         while #controller.getItemsInNetwork() >= 1 do
           os.sleep(1)
