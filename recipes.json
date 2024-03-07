@@ -1,5 +1,27 @@
 {
     "recipe": {
+        "Head": {
+            "product": "Tome of Knowledge Sharing",
+            "amount": 1,
+            "essentia": [
+                {
+                    "aspect": "cognitio",
+                    "amount": 32
+                },
+                {
+                    "aspect": "permutatio",
+                    "amount": 32
+                },
+                {
+                    "aspect": "praecantatio",
+                    "amount": 16
+                },
+                {
+                    "aspect": "pannus",
+                    "amount": 16
+                }
+            ]
+        },
         "Silverwood Log": {
             "product": "Silverwood Rod",
             "amount": 1,
@@ -380,5 +402,5 @@
     "sub": {
         "Nether Star": true
     },
-    "updated_at": "2024-03-07 08:12:21"
+    "updated_at": "2024-03-07 14:28:58"
 }
