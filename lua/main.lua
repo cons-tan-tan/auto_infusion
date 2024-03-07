@@ -80,6 +80,8 @@ thread.create(function()
     end
 end)
 
+recipe.update()
+
 while true do
     if not claw.isFine() then
         claw.waitForReady()

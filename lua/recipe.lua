@@ -1,7 +1,7 @@
 local shell = require("shell")
 local json = require("json")
 
-local recipes = {}
+local data = {}
 
 local function update()
     shell.execute("wget -f https://raw.githubusercontent.com/cons-tan-tan/auto_infusion/main/recipes.json")
@@ -9,21 +9,21 @@ local function update()
     if file == nil then
         error("error: file not found", 0)
     end
-    local data = file:read("a")
+    local text = file:read("a")
     file:close()
-    recipes = json.decode(data)
+    text = json.decode(text)
 end
 
 local function isSub(item)
-    return recipes.sub[item]
+    return data.sub[item]
 end
 
 local function getRecipe(item)
-    local recipe = recipes.recipes[item]
+    local recipe = data.recipe[item]
     if recipe == nil then
         print(item .. " : recipe not found")
         update()
-        recipe = recipes.recipes[item]
+        recipe = data.recipe[item]
         if recipe == nil then
             error("error: recipe not found", 0)
         end
