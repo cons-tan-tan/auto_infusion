@@ -1,5 +1,35 @@
 {
     "recipe": {
+        "Tungstensteel Firebox Casing": {
+            "product": "Large Essentia Smeltery",
+            "amount": 1,
+            "essentia": [
+                {
+                    "aspect": "aqua",
+                    "amount": 256
+                },
+                {
+                    "aspect": "ignis",
+                    "amount": 256
+                },
+                {
+                    "aspect": "perditio",
+                    "amount": 256
+                },
+                {
+                    "aspect": "potentia",
+                    "amount": 256
+                },
+                {
+                    "aspect": "lucrum",
+                    "amount": 256
+                },
+                {
+                    "aspect": "electrum",
+                    "amount": 256
+                }
+            ]
+        },
         "Hoe of Growth": {
             "product": "Electric Hoe of Growth",
             "amount": 1,
@@ -468,5 +498,5 @@
     "sub": {
         "Nether Star": true
     },
-    "updated_at": "2024-03-07 17:25:34"
+    "updated_at": "2024-03-07 18:07:25"
 }
