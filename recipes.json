@@ -1,5 +1,23 @@
 {
     "recipe": {
+        "Greatwood Smoking Pipe": {
+            "product": "Silverwood Smoking Pipe",
+            "amount": 1,
+            "essentia": [
+                {
+                    "aspect": "ordo",
+                    "amount": 32
+                },
+                {
+                    "aspect": "sano",
+                    "amount": 16
+                },
+                {
+                    "aspect": "auram",
+                    "amount": 8
+                }
+            ]
+        },
         "Head": {
             "product": "Tome of Knowledge Sharing",
             "amount": 1,
@@ -402,5 +420,5 @@
     "sub": {
         "Nether Star": true
     },
-    "updated_at": "2024-03-07 14:28:58"
+    "updated_at": "2024-03-07 16:43:57"
 }
