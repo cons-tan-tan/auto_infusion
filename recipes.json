@@ -1,5 +1,27 @@
 {
     "recipe": {
+        "Thaumium Hoe": {
+            "product": "Hoe of Growth",
+            "amount": 1,
+            "essentia": [
+                {
+                    "aspect": "herba",
+                    "amount": 20
+                },
+                {
+                    "aspect": "terra",
+                    "amount": 20
+                },
+                {
+                    "aspect": "messis",
+                    "amount": 20
+                },
+                {
+                    "aspect": "meto",
+                    "amount": 10
+                }
+            ]
+        },
         "Greatwood Smoking Pipe": {
             "product": "Silverwood Smoking Pipe",
             "amount": 1,
@@ -420,5 +442,5 @@
     "sub": {
         "Nether Star": true
     },
-    "updated_at": "2024-03-07 16:43:57"
+    "updated_at": "2024-03-07 17:18:39"
 }
