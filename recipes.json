@@ -1,5 +1,31 @@
 {
     "recipe": {
+        "Hoe of Growth": {
+            "product": "Electric Hoe of Growth",
+            "amount": 1,
+            "essentia": [
+                {
+                    "aspect": "praecantatio",
+                    "amount": 48
+                },
+                {
+                    "aspect": "potentia",
+                    "amount": 32
+                },
+                {
+                    "aspect": "messis",
+                    "amount": 32
+                },
+                {
+                    "aspect": "herba",
+                    "amount": 16
+                },
+                {
+                    "aspect": "electrum",
+                    "amount": 8
+                }
+            ]
+        },
         "Thaumium Hoe": {
             "product": "Hoe of Growth",
             "amount": 1,
@@ -442,5 +468,5 @@
     "sub": {
         "Nether Star": true
     },
-    "updated_at": "2024-03-07 17:18:39"
+    "updated_at": "2024-03-07 17:25:34"
 }
