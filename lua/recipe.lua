@@ -11,7 +11,7 @@ local function update()
     end
     local text = file:read("a")
     file:close()
-    text = json.decode(text)
+    data = json.decode(text)
 end
 
 local function isSub(item)
