@@ -261,9 +261,10 @@
                 }
             ]
         },
-        "Node Transducer": {
+        "Advanced Node Stabilizer": {
             "product": "Node Manipulator",
             "amount": 1,
+            "sub": "Node Transducer",
             "essentia": [
                 {
                     "aspect": "alienis",
@@ -560,5 +561,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-07 18:35:13"
+    "updated_at": "2024-03-07 18:47:12"
 }
