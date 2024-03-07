@@ -14,6 +14,9 @@ local direction = {
 
 local function getItem(adr, dir)
     local item = invoke(adr, "getStackInSlot", dir, 1)
+    if item == nil then
+        return nil
+    end
     return item.label
 end
 
