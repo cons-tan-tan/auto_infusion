@@ -1,5 +1,31 @@
 {
     "recipe": {
+        "Crystalline Brain: Water": {
+            "product": "Essentia Locus",
+            "amount": 1,
+            "essentia": [
+                {
+                    "aspect": "aqua",
+                    "amount": 32
+                },
+                {
+                    "aspect": "praecantatio",
+                    "amount": 24
+                },
+                {
+                    "aspect": "sensus",
+                    "amount": 16
+                },
+                {
+                    "aspect": "cognitio",
+                    "amount": 8
+                },
+                {
+                    "aspect": "ordo",
+                    "amount": 8
+                }
+            ]
+        },
         "Primal Charm": {
             "product": "Talisman of Nourishment",
             "amount": 1,
@@ -657,5 +683,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-07 22:18:50"
+    "updated_at": "2024-03-07 23:31:54"
 }
