@@ -19,7 +19,7 @@ local command
 local command_list = {}
 
 local function exportRemainings()
-    if #controller.getItemsInNetwork() >= 1 then
+    if pedestal.getCenterItem() == nil and #controller.getItemsInNetwork() >= 1 then
         rs.setOutput(direction, 15)
         while #controller.getItemsInNetwork() >= 1 do
           os.sleep(1)
@@ -64,8 +64,8 @@ local function infusion(product)
     end
     claw.init()
     accelerator.turnOff()
-    exportRemainings()
     pedestal.exportCenterItems()
+    exportRemainings()
 end
 
 thread.create(function()
