@@ -1,5 +1,39 @@
 {
     "recipe": {
+        "Molecular Assembler": {
+            "product": "Arcane Assembler",
+            "amount": 1,
+            "essentia": [
+                {
+                    "aspect": "fabrico",
+                    "amount": 64
+                },
+                {
+                    "aspect": "praecantatio",
+                    "amount": 48
+                },
+                {
+                    "aspect": "permutatio",
+                    "amount": 32
+                },
+                {
+                    "aspect": "auram",
+                    "amount": 16
+                },
+                {
+                    "aspect": "lucrum",
+                    "amount": 16
+                },
+                {
+                    "aspect": "vitreus",
+                    "amount": 16
+                },
+                {
+                    "aspect": "metallum",
+                    "amount": 8
+                }
+            ]
+        },
         "Tungstensteel Firebox Casing": {
             "product": "Large Essentia Smeltery",
             "amount": 1,
@@ -498,5 +532,5 @@
     "sub": {
         "Nether Star": true
     },
-    "updated_at": "2024-03-07 18:07:25"
+    "updated_at": "2024-03-07 18:22:51"
 }
