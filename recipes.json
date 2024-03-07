@@ -1,5 +1,31 @@
 {
     "recipe": {
+        "High Pressure Boiler Tank": {
+            "product": "Thaumium Alchemical Furnace",
+            "amount": 1,
+            "essentia": [
+                {
+                    "aspect": "ignis",
+                    "amount": 48
+                },
+                {
+                    "aspect": "potentia",
+                    "amount": 32
+                },
+                {
+                    "aspect": "praecantatio",
+                    "amount": 24
+                },
+                {
+                    "aspect": "machina",
+                    "amount": 16
+                },
+                {
+                    "aspect": "metallum",
+                    "amount": 16
+                }
+            ]
+        },
         "Arcane Pedestal": {
             "product": "Wand Recharge Pedestal",
             "amount": 1,
@@ -601,5 +627,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-07 19:38:47"
+    "updated_at": "2024-03-07 20:03:18"
 }
