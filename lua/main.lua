@@ -81,7 +81,7 @@ thread.create(function()
 end)
 
 while true do
-    if claw.isFine() then
+    if not claw.isFine() then
         claw.waitForReady()
     end
 
