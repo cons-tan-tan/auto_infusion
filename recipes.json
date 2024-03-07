@@ -1,5 +1,27 @@
 {
     "recipe": {
+        "Arcane Pedestal": {
+            "product": "Wand Recharge Pedestal",
+            "amount": 1,
+            "essentia": [
+                {
+                    "aspect": "praecantatio",
+                    "amount": 20
+                },
+                {
+                    "aspect": "permutatio",
+                    "amount": 15
+                },
+                {
+                    "aspect": "auram",
+                    "amount": 10
+                },
+                {
+                    "aspect": "ordo",
+                    "amount": 5
+                }
+            ]
+        },
         "Inert Thaumium Cap": {
             "product": "Charged Thaumium Cap",
             "amount": 1,
@@ -579,5 +601,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-07 19:33:29"
+    "updated_at": "2024-03-07 19:38:47"
 }
