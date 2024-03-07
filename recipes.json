@@ -1,5 +1,35 @@
 {
     "recipe": {
+        "Primal Charm": {
+            "product": "Talisman of Nourishment",
+            "amount": 1,
+            "essentia": [
+                {
+                    "aspect": "fames",
+                    "amount": 64
+                },
+                {
+                    "aspect": "pannus",
+                    "amount": 48
+                },
+                {
+                    "aspect": "permutatio",
+                    "amount": 32
+                },
+                {
+                    "aspect": "messis",
+                    "amount": 24
+                },
+                {
+                    "aspect": "sano",
+                    "amount": 24
+                },
+                {
+                    "aspect": "ordo",
+                    "amount": 16
+                }
+            ]
+        },
         "High Pressure Boiler Tank": {
             "product": "Thaumium Alchemical Furnace",
             "amount": 1,
@@ -627,5 +657,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-07 20:03:18"
+    "updated_at": "2024-03-07 22:18:50"
 }
