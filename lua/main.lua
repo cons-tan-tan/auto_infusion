@@ -67,8 +67,8 @@ local function infusion(product)
     end
     claw.init()
     accelerator.turnOff()
-    pedestal.exportCenterItems()
     exportRemainings()
+    pedestal.exportCenterItems()
 end
 
 thread.create(function()
