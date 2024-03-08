@@ -1,5 +1,23 @@
 {
     "recipe": {
+        "Thaumium Frame Box": {
+            "product": "Novice Essentia Diffusion Cell",
+            "amount": 1,
+            "essentia": [
+                {
+                    "aspect": "aqua",
+                    "amount": 32
+                },
+                {
+                    "aspect": "vacuos",
+                    "amount": 32
+                },
+                {
+                    "aspect": "permutatio",
+                    "amount": 16
+                }
+            ]
+        },
         "Crystalline Brain: Water": {
             "product": "Essentia Locus",
             "amount": 1,
@@ -683,5 +701,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-07 23:43:43"
+    "updated_at": "2024-03-08 00:20:07"
 }
