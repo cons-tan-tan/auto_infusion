@@ -1,5 +1,27 @@
 {
     "recipe": {
+        "Output Hatch (HV)": {
+            "product": "Essentia Output Hatch",
+            "amount": 1,
+            "essentia": [
+                {
+                    "aspect": "aqua",
+                    "amount": 128
+                },
+                {
+                    "aspect": "vacuos",
+                    "amount": 64
+                },
+                {
+                    "aspect": "permutatio",
+                    "amount": 32
+                },
+                {
+                    "aspect": "cognitio",
+                    "amount": 32
+                }
+            ]
+        },
         "Thaumium Frame Box": {
             "product": "Novice Essentia Diffusion Cell",
             "amount": 1,
@@ -701,5 +723,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-08 00:20:07"
+    "updated_at": "2024-03-08 00:34:24"
 }
