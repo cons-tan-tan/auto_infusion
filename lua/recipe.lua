@@ -31,7 +31,6 @@ local function getRecipe(item)
     return recipe
 end
 
-update()
 return {
     update = update,
     isSub = isSub,
