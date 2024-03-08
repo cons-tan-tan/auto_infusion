@@ -170,7 +170,7 @@
                 "auram": 8
             }
         },
-        "Head": {
+        "Sotatsu's Head": {
             "product": "Tome of Knowledge Sharing",
             "amount": 1,
             "essentia": {
@@ -341,5 +341,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-08 21:33:39"
+    "updated_at": "2024-03-08 14:38:01"
 }
