@@ -1,5 +1,28 @@
 {
     "recipe": {
+        "Void Plate": {
+            "product": "Essentia Reservoir",
+            "amount": 1,
+            "sub": "Essentia Buffer",
+            "essentia": [
+                {
+                    "aspect": "aqua",
+                    "amount": 16
+                },
+                {
+                    "aspect": "permutatio",
+                    "amount": 16
+                },
+                {
+                    "aspect": "praecantatio",
+                    "amount": 16
+                },
+                {
+                    "aspect": "vacuos",
+                    "amount": 16
+                }
+            ]
+        },
         "Electric Pump (MV)": {
             "product": "Essentia Pump",
             "amount": 1,
@@ -765,5 +788,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-08 00:45:33"
+    "updated_at": "2024-03-08 00:47:13"
 }
