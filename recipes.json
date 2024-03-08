@@ -1,5 +1,27 @@
 {
     "recipe": {
+        "Essentia Output Hatch": {
+            "product": "Essentia Output Hatch (ME)",
+            "amount": 1,
+            "essentia": [
+                {
+                    "aspect": "potentia",
+                    "amount": 256
+                },
+                {
+                    "aspect": "machina",
+                    "amount": 256
+                },
+                {
+                    "aspect": "alienis",
+                    "amount": 256
+                },
+                {
+                    "aspect": "strontio",
+                    "amount": 256
+                }
+            ]
+        },
         "Output Hatch (HV)": {
             "product": "Essentia Output Hatch",
             "amount": 1,
@@ -723,5 +745,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-08 00:34:24"
+    "updated_at": "2024-03-08 00:35:55"
 }
