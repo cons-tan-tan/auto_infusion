@@ -1,5 +1,24 @@
 {
     "recipe": {
+        "Electric Pump (MV)": {
+            "product": "Essentia Pump",
+            "amount": 1,
+            "sub": "Essentia Buffer",
+            "essentia": [
+                {
+                    "aspect": "iter",
+                    "amount": 64
+                },
+                {
+                    "aspect": "motus",
+                    "amount": 32
+                },
+                {
+                    "aspect": "ordo",
+                    "amount": 16
+                }
+            ]
+        },
         "Essentia Output Hatch": {
             "product": "Essentia Output Hatch (ME)",
             "amount": 1,
@@ -742,8 +761,9 @@
         }
     },
     "sub": {
+        "Essentia Buffer": true,
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-08 00:35:55"
+    "updated_at": "2024-03-08 00:45:33"
 }
