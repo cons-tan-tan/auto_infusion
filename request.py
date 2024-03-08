@@ -1,12 +1,17 @@
 import os
+import sys
 import json
 import datetime
 
 import requests
 
-# ローカルで実行する場合は以下のコードを有効化する
-# from dotenv import load_dotenv
-# load_dotenv()
+args = sys.argv
+if len(args) == 2 and args[1] == "auto":
+    pass
+else:
+    from dotenv import load_dotenv
+    load_dotenv()
+
 
 url = os.environ.get("MICROCMS_SERVICE_DOMAIN")
 header= {

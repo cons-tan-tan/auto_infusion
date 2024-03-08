@@ -17,7 +17,7 @@ jobs:
       env:
         MICROCMS_SERVICE_DOMAIN: ${{ secrets.MICROCMS_SERVICE_DOMAIN }}
         MICROCMS_API_KEY: ${{ secrets.MICROCMS_API_KEY }}
-      run: python request.py
+      run: python request.py auto
     - name: Commit and Push
       run: |
         git config --global user.email ${{ secrets.USER_EMAIL }}
