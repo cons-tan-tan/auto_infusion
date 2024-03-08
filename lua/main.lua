@@ -7,6 +7,7 @@ local accelerator = require("accelerator")
 local interface = require("interface")
 local pedestal = require("pedestal")
 local recipe = require("recipe")
+local chat = require("chat")
 
 local rs = component.redstone
 local matrix = component.blockstonedevice_2
@@ -15,8 +16,8 @@ local controller = component.me_controller
 local direction = tonumber(os.getenv("EXPORTBUS_REDSTONE_DIRECTION"))
 local margin = tonumber(os.getenv("ORDER_MARGIN"))
 
-local command
-local command_list = {}
+local queue = nil
+local commands = {}
 
 local function exportRemainings()
     if #controller.getItemsInNetwork() >= 1 then
@@ -67,24 +68,23 @@ local function infusion(product)
     pedestal.exportCenterItems()
 end
 
+local function callback(_, _, _, message)
+    if string(message, 1, 1) == "@" then
+        local slug = string.sub(message, 2)
+        if type(commands[slug]) == "function" then
+            queue = slug
+        end
+    end
+end
+
 local function init()
     recipe.update()
     rs.setOutput(direction, 0)
     accelerator.turnOff()
     claw.init()
+    chat.init()
+    event.listen("chat_message", callback)
 end
-
-thread.create(function()
-    while true do
-        local _, _, _, message = event.pull("chat_message")
-        if string(message, 1, 1) == "@" then
-            local slug = string.sub(message, 2)
-            if command_list[slug] ~= nil then
-                command = slug
-            end
-        end
-    end
-end)
 
 init()
 while true do
