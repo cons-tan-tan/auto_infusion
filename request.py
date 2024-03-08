@@ -5,8 +5,8 @@ import datetime
 import requests
 
 # ローカルで実行する場合は以下のコードを有効化する
-# from dotenv import load_dotenv
-# load_dotenv()
+from dotenv import load_dotenv
+load_dotenv()
 
 url = os.environ.get("MICROCMS_SERVICE_DOMAIN")
 header= {
@@ -32,12 +32,11 @@ for i in range(result["totalCount"]):
     if recipe["sub"] != None:
         tmp["sub"] = recipe["sub"]["key"]
         sub[recipe["sub"]["key"]] = True
-    essentia = []
+    essentia = {}
     for j in range(len(recipe["essentia"])):
-        tmp1 = {}
-        tmp1["aspect"] = recipe["essentia"][j]["aspect"]["name"].lower()
-        tmp1["amount"] = recipe["essentia"][j]["amount"]
-        essentia.append(tmp1)
+        aspect = recipe["essentia"][j]["aspect"]["name"].lower()
+        amount = recipe["essentia"][j]["amount"]
+        essentia[aspect] = amount
     tmp["essentia"] = essentia
     data["recipe"][recipe["key"]] = tmp
 

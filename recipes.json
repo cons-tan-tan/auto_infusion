@@ -4,783 +4,336 @@
             "product": "Essentia Reservoir",
             "amount": 1,
             "sub": "Essentia Buffer",
-            "essentia": [
-                {
-                    "aspect": "aqua",
-                    "amount": 16
-                },
-                {
-                    "aspect": "permutatio",
-                    "amount": 16
-                },
-                {
-                    "aspect": "praecantatio",
-                    "amount": 16
-                },
-                {
-                    "aspect": "vacuos",
-                    "amount": 16
-                }
-            ]
+            "essentia": {
+                "aqua": 16,
+                "permutatio": 16,
+                "praecantatio": 16,
+                "vacuos": 16
+            }
         },
         "Electric Pump (MV)": {
             "product": "Essentia Pump",
             "amount": 1,
             "sub": "Essentia Buffer",
-            "essentia": [
-                {
-                    "aspect": "iter",
-                    "amount": 64
-                },
-                {
-                    "aspect": "motus",
-                    "amount": 32
-                },
-                {
-                    "aspect": "ordo",
-                    "amount": 16
-                }
-            ]
+            "essentia": {
+                "iter": 64,
+                "motus": 32,
+                "ordo": 16
+            }
         },
         "Essentia Output Hatch": {
             "product": "Essentia Output Hatch (ME)",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "potentia",
-                    "amount": 256
-                },
-                {
-                    "aspect": "machina",
-                    "amount": 256
-                },
-                {
-                    "aspect": "alienis",
-                    "amount": 256
-                },
-                {
-                    "aspect": "strontio",
-                    "amount": 256
-                }
-            ]
+            "essentia": {
+                "potentia": 256,
+                "machina": 256,
+                "alienis": 256,
+                "strontio": 256
+            }
         },
         "Output Hatch (HV)": {
             "product": "Essentia Output Hatch",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "aqua",
-                    "amount": 128
-                },
-                {
-                    "aspect": "vacuos",
-                    "amount": 64
-                },
-                {
-                    "aspect": "permutatio",
-                    "amount": 32
-                },
-                {
-                    "aspect": "cognitio",
-                    "amount": 32
-                }
-            ]
+            "essentia": {
+                "aqua": 128,
+                "vacuos": 64,
+                "permutatio": 32,
+                "cognitio": 32
+            }
         },
         "Thaumium Frame Box": {
             "product": "Novice Essentia Diffusion Cell",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "aqua",
-                    "amount": 32
-                },
-                {
-                    "aspect": "vacuos",
-                    "amount": 32
-                },
-                {
-                    "aspect": "permutatio",
-                    "amount": 16
-                }
-            ]
+            "essentia": {
+                "aqua": 32,
+                "vacuos": 32,
+                "permutatio": 16
+            }
         },
         "Crystalline Brain: Water": {
             "product": "Essentia Locus",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "aqua",
-                    "amount": 32
-                },
-                {
-                    "aspect": "praecantatio",
-                    "amount": 24
-                },
-                {
-                    "aspect": "sensus",
-                    "amount": 16
-                },
-                {
-                    "aspect": "cognitio",
-                    "amount": 8
-                },
-                {
-                    "aspect": "ordo",
-                    "amount": 8
-                }
-            ]
+            "essentia": {
+                "aqua": 32,
+                "praecantatio": 24,
+                "sensus": 16,
+                "cognitio": 8,
+                "ordo": 8
+            }
         },
         "Primal Charm": {
             "product": "Talisman of Nourishment",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "fames",
-                    "amount": 64
-                },
-                {
-                    "aspect": "pannus",
-                    "amount": 48
-                },
-                {
-                    "aspect": "permutatio",
-                    "amount": 32
-                },
-                {
-                    "aspect": "messis",
-                    "amount": 24
-                },
-                {
-                    "aspect": "sano",
-                    "amount": 24
-                },
-                {
-                    "aspect": "ordo",
-                    "amount": 16
-                }
-            ]
+            "essentia": {
+                "fames": 64,
+                "pannus": 48,
+                "permutatio": 32,
+                "messis": 24,
+                "sano": 24,
+                "ordo": 16
+            }
         },
         "Alchemical Furnace": {
             "product": "Thaumium Alchemical Furnace",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "ignis",
-                    "amount": 48
-                },
-                {
-                    "aspect": "potentia",
-                    "amount": 32
-                },
-                {
-                    "aspect": "praecantatio",
-                    "amount": 24
-                },
-                {
-                    "aspect": "machina",
-                    "amount": 16
-                },
-                {
-                    "aspect": "metallum",
-                    "amount": 16
-                }
-            ]
+            "essentia": {
+                "ignis": 48,
+                "potentia": 32,
+                "praecantatio": 24,
+                "machina": 16,
+                "metallum": 16
+            }
         },
         "Arcane Pedestal": {
             "product": "Wand Recharge Pedestal",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "praecantatio",
-                    "amount": 20
-                },
-                {
-                    "aspect": "permutatio",
-                    "amount": 15
-                },
-                {
-                    "aspect": "auram",
-                    "amount": 10
-                },
-                {
-                    "aspect": "ordo",
-                    "amount": 5
-                }
-            ]
+            "essentia": {
+                "praecantatio": 20,
+                "permutatio": 15,
+                "auram": 10,
+                "ordo": 5
+            }
         },
         "Inert Thaumium Cap": {
             "product": "Charged Thaumium Cap",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "potentia",
-                    "amount": 40
-                },
-                {
-                    "aspect": "auram",
-                    "amount": 25
-                },
-                {
-                    "aspect": "praecantatio",
-                    "amount": 25
-                }
-            ]
+            "essentia": {
+                "potentia": 40,
+                "auram": 25,
+                "praecantatio": 25
+            }
         },
         "Vis Relay": {
             "product": "Node Linking Device",
             "amount": 1,
             "sub": "Node Transducer",
-            "essentia": [
-                {
-                    "aspect": "potentia",
-                    "amount": 64
-                },
-                {
-                    "aspect": "machina",
-                    "amount": 48
-                },
-                {
-                    "aspect": "instrumentum",
-                    "amount": 40
-                },
-                {
-                    "aspect": "ordo",
-                    "amount": 32
-                },
-                {
-                    "aspect": "electrum",
-                    "amount": 32
-                }
-            ]
+            "essentia": {
+                "potentia": 64,
+                "machina": 48,
+                "instrumentum": 40,
+                "ordo": 32,
+                "electrum": 32
+            }
         },
         "Molecular Assembler": {
             "product": "Arcane Assembler",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "fabrico",
-                    "amount": 64
-                },
-                {
-                    "aspect": "praecantatio",
-                    "amount": 48
-                },
-                {
-                    "aspect": "permutatio",
-                    "amount": 32
-                },
-                {
-                    "aspect": "auram",
-                    "amount": 16
-                },
-                {
-                    "aspect": "lucrum",
-                    "amount": 16
-                },
-                {
-                    "aspect": "vitreus",
-                    "amount": 16
-                },
-                {
-                    "aspect": "metallum",
-                    "amount": 8
-                }
-            ]
+            "essentia": {
+                "fabrico": 64,
+                "praecantatio": 48,
+                "permutatio": 32,
+                "auram": 16,
+                "lucrum": 16,
+                "vitreus": 16,
+                "metallum": 8
+            }
         },
         "Tungstensteel Firebox Casing": {
             "product": "Large Essentia Smeltery",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "aqua",
-                    "amount": 256
-                },
-                {
-                    "aspect": "ignis",
-                    "amount": 256
-                },
-                {
-                    "aspect": "perditio",
-                    "amount": 256
-                },
-                {
-                    "aspect": "potentia",
-                    "amount": 256
-                },
-                {
-                    "aspect": "lucrum",
-                    "amount": 256
-                },
-                {
-                    "aspect": "electrum",
-                    "amount": 256
-                }
-            ]
+            "essentia": {
+                "aqua": 256,
+                "ignis": 256,
+                "perditio": 256,
+                "potentia": 256,
+                "lucrum": 256,
+                "electrum": 256
+            }
         },
         "Hoe of Growth": {
             "product": "Electric Hoe of Growth",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "praecantatio",
-                    "amount": 48
-                },
-                {
-                    "aspect": "potentia",
-                    "amount": 32
-                },
-                {
-                    "aspect": "messis",
-                    "amount": 32
-                },
-                {
-                    "aspect": "herba",
-                    "amount": 16
-                },
-                {
-                    "aspect": "electrum",
-                    "amount": 8
-                }
-            ]
+            "essentia": {
+                "praecantatio": 48,
+                "potentia": 32,
+                "messis": 32,
+                "herba": 16,
+                "electrum": 8
+            }
         },
         "Thaumium Hoe": {
             "product": "Hoe of Growth",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "herba",
-                    "amount": 20
-                },
-                {
-                    "aspect": "terra",
-                    "amount": 20
-                },
-                {
-                    "aspect": "messis",
-                    "amount": 20
-                },
-                {
-                    "aspect": "meto",
-                    "amount": 10
-                }
-            ]
+            "essentia": {
+                "herba": 20,
+                "terra": 20,
+                "messis": 20,
+                "meto": 10
+            }
         },
         "Greatwood Smoking Pipe": {
             "product": "Silverwood Smoking Pipe",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "ordo",
-                    "amount": 32
-                },
-                {
-                    "aspect": "sano",
-                    "amount": 16
-                },
-                {
-                    "aspect": "auram",
-                    "amount": 8
-                }
-            ]
+            "essentia": {
+                "ordo": 32,
+                "sano": 16,
+                "auram": 8
+            }
         },
         "Head": {
             "product": "Tome of Knowledge Sharing",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "cognitio",
-                    "amount": 32
-                },
-                {
-                    "aspect": "permutatio",
-                    "amount": 32
-                },
-                {
-                    "aspect": "praecantatio",
-                    "amount": 16
-                },
-                {
-                    "aspect": "pannus",
-                    "amount": 16
-                }
-            ]
+            "essentia": {
+                "cognitio": 32,
+                "permutatio": 32,
+                "praecantatio": 16,
+                "pannus": 16
+            }
         },
         "Silverwood Log": {
             "product": "Silverwood Rod",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "aer",
-                    "amount": 48
-                },
-                {
-                    "aspect": "aqua",
-                    "amount": 48
-                },
-                {
-                    "aspect": "ignis",
-                    "amount": 48
-                },
-                {
-                    "aspect": "ordo",
-                    "amount": 48
-                },
-                {
-                    "aspect": "perditio",
-                    "amount": 48
-                },
-                {
-                    "aspect": "praecantatio",
-                    "amount": 48
-                },
-                {
-                    "aspect": "terra",
-                    "amount": 48
-                }
-            ]
+            "essentia": {
+                "aer": 48,
+                "aqua": 48,
+                "ignis": 48,
+                "ordo": 48,
+                "perditio": 48,
+                "praecantatio": 48,
+                "terra": 48
+            }
         },
         "Arcane Bellows": {
             "product": "Flux Scrubber",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "aqua",
-                    "amount": 25
-                },
-                {
-                    "aspect": "aer",
-                    "amount": 20
-                },
-                {
-                    "aspect": "praecantatio",
-                    "amount": 15
-                },
-                {
-                    "aspect": "vinculum",
-                    "amount": 10
-                },
-                {
-                    "aspect": "vitium",
-                    "amount": 5
-                }
-            ]
+            "essentia": {
+                "aqua": 25,
+                "aer": 20,
+                "praecantatio": 15,
+                "vinculum": 10,
+                "vitium": 5
+            }
         },
         "Node Stabilizer": {
             "product": "Advanced Node Stabilizer",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "auram",
-                    "amount": 32
-                },
-                {
-                    "aspect": "ordo",
-                    "amount": 32
-                },
-                {
-                    "aspect": "potentia",
-                    "amount": 32
-                },
-                {
-                    "aspect": "praecantatio",
-                    "amount": 32
-                }
-            ]
+            "essentia": {
+                "auram": 32,
+                "ordo": 32,
+                "potentia": 32,
+                "praecantatio": 32
+            }
         },
         "Advanced Node Stabilizer": {
             "product": "Node Manipulator",
             "amount": 1,
             "sub": "Node Transducer",
-            "essentia": [
-                {
-                    "aspect": "alienis",
-                    "amount": 64
-                },
-                {
-                    "aspect": "auram",
-                    "amount": 48
-                },
-                {
-                    "aspect": "praecantatio",
-                    "amount": 40
-                },
-                {
-                    "aspect": "potentia",
-                    "amount": 32
-                },
-                {
-                    "aspect": "vacuos",
-                    "amount": 32
-                },
-                {
-                    "aspect": "tenebrae",
-                    "amount": 24
-                }
-            ]
+            "essentia": {
+                "alienis": 64,
+                "auram": 48,
+                "praecantatio": 40,
+                "potentia": 32,
+                "vacuos": 32,
+                "tenebrae": 24
+            }
         },
         "ME Interface": {
             "product": "Essentia Provider",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "machina",
-                    "amount": 64
-                },
-                {
-                    "aspect": "praecantatio",
-                    "amount": 48
-                },
-                {
-                    "aspect": "ordo",
-                    "amount": 32
-                },
-                {
-                    "aspect": "permutatio",
-                    "amount": 24
-                },
-                {
-                    "aspect": "aqua",
-                    "amount": 16
-                },
-                {
-                    "aspect": "cognitio",
-                    "amount": 8
-                },
-                {
-                    "aspect": "lucrum",
-                    "amount": 4
-                }
-            ]
+            "essentia": {
+                "machina": 64,
+                "praecantatio": 48,
+                "ordo": 32,
+                "permutatio": 24,
+                "aqua": 16,
+                "cognitio": 8,
+                "lucrum": 4
+            }
         },
         "Quantum Core": {
             "product": "Octuple Compressed Solar",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "aer",
-                    "amount": 4800
-                },
-                {
-                    "aspect": "terra",
-                    "amount": 4800
-                },
-                {
-                    "aspect": "ignis",
-                    "amount": 4800
-                },
-                {
-                    "aspect": "aqua",
-                    "amount": 4800
-                },
-                {
-                    "aspect": "ordo",
-                    "amount": 4800
-                },
-                {
-                    "aspect": "perditio",
-                    "amount": 4800
-                }
-            ]
+            "essentia": {
+                "aer": 4800,
+                "terra": 4800,
+                "ignis": 4800,
+                "aqua": 4800,
+                "ordo": 4800,
+                "perditio": 4800
+            }
         },
         "Irradiant Reinforced Neutronium Plate": {
             "product": "Septuple Compressed Solar",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "aer",
-                    "amount": 2400
-                },
-                {
-                    "aspect": "terra",
-                    "amount": 2400
-                },
-                {
-                    "aspect": "ignis",
-                    "amount": 2400
-                },
-                {
-                    "aspect": "aqua",
-                    "amount": 2400
-                },
-                {
-                    "aspect": "ordo",
-                    "amount": 2400
-                },
-                {
-                    "aspect": "perditio",
-                    "amount": 2400
-                }
-            ]
+            "essentia": {
+                "aer": 2400,
+                "terra": 2400,
+                "ignis": 2400,
+                "aqua": 2400,
+                "ordo": 2400,
+                "perditio": 2400
+            }
         },
         "Irradiant Reinforced Naquadria Plate": {
             "product": "Sextuple Compressed Solar",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "aer",
-                    "amount": 1200
-                },
-                {
-                    "aspect": "terra",
-                    "amount": 1200
-                },
-                {
-                    "aspect": "ignis",
-                    "amount": 1200
-                },
-                {
-                    "aspect": "aqua",
-                    "amount": 1200
-                },
-                {
-                    "aspect": "ordo",
-                    "amount": 1200
-                },
-                {
-                    "aspect": "perditio",
-                    "amount": 1200
-                }
-            ]
+            "essentia": {
+                "aer": 1200,
+                "terra": 1200,
+                "ignis": 1200,
+                "aqua": 1200,
+                "ordo": 1200,
+                "perditio": 1200
+            }
         },
         "Irradiant Reinforced Plate": {
             "product": "Quintuple Compressed Solar",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "aer",
-                    "amount": 600
-                },
-                {
-                    "aspect": "terra",
-                    "amount": 600
-                },
-                {
-                    "aspect": "ignis",
-                    "amount": 600
-                },
-                {
-                    "aspect": "aqua",
-                    "amount": 600
-                },
-                {
-                    "aspect": "ordo",
-                    "amount": 600
-                },
-                {
-                    "aspect": "perditio",
-                    "amount": 600
-                }
-            ]
+            "essentia": {
+                "aer": 600,
+                "terra": 600,
+                "ignis": 600,
+                "aqua": 600,
+                "ordo": 600,
+                "perditio": 600
+            }
         },
         "Irradiant Reinforced Chrome Plate": {
             "product": "Quadruple Compressed Solar",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "aer",
-                    "amount": 300
-                },
-                {
-                    "aspect": "terra",
-                    "amount": 300
-                },
-                {
-                    "aspect": "ignis",
-                    "amount": 300
-                },
-                {
-                    "aspect": "aqua",
-                    "amount": 300
-                },
-                {
-                    "aspect": "ordo",
-                    "amount": 300
-                },
-                {
-                    "aspect": "perditio",
-                    "amount": 300
-                }
-            ]
+            "essentia": {
+                "aer": 300,
+                "terra": 300,
+                "ignis": 300,
+                "aqua": 300,
+                "ordo": 300,
+                "perditio": 300
+            }
         },
         "Irradiant Reinforced Tungsten-Steel Plate": {
             "product": "Triple Compressed Solar Panel",
             "amount": 1,
-            "essentia": [
-                {
-                    "aspect": "aer",
-                    "amount": 150
-                },
-                {
-                    "aspect": "terra",
-                    "amount": 150
-                },
-                {
-                    "aspect": "ignis",
-                    "amount": 150
-                },
-                {
-                    "aspect": "aqua",
-                    "amount": 150
-                },
-                {
-                    "aspect": "ordo",
-                    "amount": 150
-                },
-                {
-                    "aspect": "perditio",
-                    "amount": 150
-                }
-            ]
+            "essentia": {
+                "aer": 150,
+                "terra": 150,
+                "ignis": 150,
+                "aqua": 150,
+                "ordo": 150,
+                "perditio": 150
+            }
         },
         "Nether Shard": {
             "product": "Ichor",
             "amount": 2,
             "sub": "Nether Star",
-            "essentia": [
-                {
-                    "aspect": "spiritus",
-                    "amount": 64
-                },
-                {
-                    "aspect": "humanus",
-                    "amount": 32
-                },
-                {
-                    "aspect": "lux",
-                    "amount": 32
-                },
-                {
-                    "aspect": "alienis",
-                    "amount": 16
-                },
-                {
-                    "aspect": "ordo",
-                    "amount": 16
-                }
-            ]
+            "essentia": {
+                "spiritus": 64,
+                "humanus": 32,
+                "lux": 32,
+                "alienis": 16,
+                "ordo": 16
+            }
         },
         "Ichorium Ingot": {
             "product": "Pure Tear",
             "amount": 1,
             "sub": "Nether Star",
-            "essentia": [
-                {
-                    "aspect": "alienis",
-                    "amount": 32
-                },
-                {
-                    "aspect": "permutatio",
-                    "amount": 32
-                },
-                {
-                    "aspect": "praecantatio",
-                    "amount": 16
-                },
-                {
-                    "aspect": "sano",
-                    "amount": 16
-                }
-            ]
+            "essentia": {
+                "alienis": 32,
+                "permutatio": 32,
+                "praecantatio": 16,
+                "sano": 16
+            }
         }
     },
     "sub": {
@@ -788,5 +341,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-08 00:47:13"
+    "updated_at": "2024-03-08 21:33:39"
 }

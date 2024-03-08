@@ -34,25 +34,21 @@ end
 
 local function refillEssentia(order_list)
     local essentia = interface.getEssentiaList()
-    for i=1, #order_list do
-        local order = {
-            aspect = order_list[i].aspect,
-            amount = order_list[i].amount
-        }
-        local amount = essentia[order.aspect]
-        if amount == nil then
-            amount = 0
+    for aspect, amount in pairs(order_list) do
+        local remaining = essentia[aspect]
+        if remaining == nil then
+            remaining = 0
         end
-        if amount < order.amount + margin then
-            local q = interface.orderEssentia(order.aspect, order.amount + margin - amount)
+        if remaining < amount + margin then
+            local q = interface.orderEssentia(aspect, amount + margin - remaining)
             if q == nil then
-                print(order.aspect .. " recipe not found")
+                print(aspect .. " recipe not found")
                 return false
             elseif q.isCanceled() then
-                print(order.aspect .. " unable to order")
+                print(aspect .. " unable to order")
                 return false
             else
-                print(order.aspect .. " ordered")
+                print(aspect .. " ordered")
             end
         end
     end
