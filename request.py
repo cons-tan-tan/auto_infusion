@@ -5,8 +5,8 @@ import datetime
 import requests
 
 # ローカルで実行する場合は以下のコードを有効化する
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 url = os.environ.get("MICROCMS_SERVICE_DOMAIN")
 header= {
