@@ -71,6 +71,13 @@ local function infusion(product)
     pedestal.exportCenterItems()
 end
 
+local function init()
+    recipe.update()
+    rs.setOutput(direction, 0)
+    accelerator.turnOff()
+    claw.init()
+end
+
 thread.create(function()
     while true do
         local _, _, _, message = event.pull("chat_message")
@@ -83,10 +90,7 @@ thread.create(function()
     end
 end)
 
-recipe.update()
-rs.setOutput(direction, 0)
-accelerator.turnOff()
-claw.init()
+init()
 while true do
     if not claw.isFine() then
         claw.waitForReady()
