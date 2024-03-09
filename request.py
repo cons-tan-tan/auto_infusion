@@ -35,11 +35,11 @@ def prepare_env():
 def post_to_discord():
     url = os.environ.get("DISCORD_WEBHOOK_URL")
     data = {
-        "content": ":x:GitHub Actions実行時にエラーが発生しました",
+        "content": "**" + traceback.format_exception_only(sys.exc_info()[0], sys.exc_info()[1])[-1] + "**",
         "embeds": [
             {
                 "title": "GitHub Actions",
-                "description": "```" + traceback.format_exc() + "```",
+                "description": ":x:シリアライズ実行時にエラーが発生しました",
                 "url": "https://github.com/cons-tan-tan/auto_infusion/actions",
                 "color": int("ff3434", 16),
             }
@@ -84,7 +84,8 @@ def serialize(raw_data) -> dict:
             essentia[aspect] = amount
         tmp["essentia"] = essentia
         data["recipe"][recipe["key"]] = tmp
-    data["updated_at"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    now = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
+    data["updated_at"] = now.strftime("%Y-%m-%d %H:%M:%S")
 
     return data
 
