@@ -17,7 +17,9 @@ local direction = tonumber(os.getenv("EXPORTBUS_REDSTONE_DIRECTION"))
 local margin = tonumber(os.getenv("ORDER_MARGIN"))
 
 local queue = nil
-local commands = {}
+local commands = {
+    update = recipe.update,
+}
 
 local function exportRemainings()
     if #controller.getItemsInNetwork() >= 1 then
@@ -88,6 +90,11 @@ end
 
 init()
 while true do
+    if queue ~= nil then
+        queue = nil
+        commands[queue]()
+    end
+
     if not claw.isFine() then
         claw.waitForReady()
     end
