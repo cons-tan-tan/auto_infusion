@@ -1,5 +1,14 @@
 {
     "recipe": {
+        "Novice Essentia Diffusion Cell": {
+            "product": "Adept Essentia Diffusion Cell",
+            "amount": 1,
+            "essentia": {
+                "aqua": 64,
+                "vacuos": 64,
+                "permutatio": 32
+            }
+        },
         "Void Plate": {
             "product": "Essentia Reservoir",
             "amount": 1,
@@ -341,5 +350,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-09 23:48:47"
+    "updated_at": "2024-03-10 02:42:18"
 }
