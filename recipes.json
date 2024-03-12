@@ -1,5 +1,15 @@
 {
     "recipe": {
+        "Runic Matrix": {
+            "product": "Runic Altar",
+            "amount": 1,
+            "essentia": {
+                "herba": 64,
+                "fabrico": 64,
+                "praecantatio": 32,
+                "auram": 16
+            }
+        },
         "Runic Altar": {
             "product": "Terrestrial Agglomeration Plate",
             "amount": 1,
@@ -362,5 +372,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-12 19:20:10"
+    "updated_at": "2024-03-12 20:50:08"
 }
