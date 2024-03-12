@@ -1,5 +1,17 @@
 {
     "recipe": {
+        "Runic Altar": {
+            "product": "Terrestrial Agglomeration Plate",
+            "amount": 1,
+            "essentia": {
+                "terra": 64,
+                "lucrum": 64,
+                "permutatio": 32,
+                "praecantatio": 32,
+                "fabrico": 32,
+                "auram": 16
+            }
+        },
         "Novice Essentia Diffusion Cell": {
             "product": "Adept Essentia Diffusion Cell",
             "amount": 1,
@@ -350,5 +362,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-10 02:42:18"
+    "updated_at": "2024-03-12 19:20:10"
 }
