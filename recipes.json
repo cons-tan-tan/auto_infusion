@@ -1,5 +1,16 @@
 {
     "recipe": {
+        "Electric Piston (MV)": {
+            "product": "Arcane Bore",
+            "amount": 1,
+            "essentia": {
+                "machina": 64,
+                "perditio": 64,
+                "motus": 32,
+                "potentia": 32,
+                "vacuos": 32
+            }
+        },
         "Arcane Lamp": {
             "product": "Lamp of the Growth",
             "amount": 1,
@@ -514,5 +525,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-14 05:47:22"
+    "updated_at": "2024-03-14 05:48:35"
 }
