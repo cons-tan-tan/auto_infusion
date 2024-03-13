@@ -1,5 +1,18 @@
 {
     "recipe": {
+        "Ichorcloth Cowl": {
+            "product": "Cowl of the Abyssal Depths",
+            "amount": 1,
+            "essentia": {
+                "aqua": 64,
+                "auram": 64,
+                "cognitio": 64,
+                "corpus": 64,
+                "fames": 64,
+                "lux": 64,
+                "tutamen": 64
+            }
+        },
         "Ichorcloth Robe": {
             "product": "Robes of the Stratosphere",
             "amount": 1,
@@ -482,5 +495,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-14 05:25:22"
+    "updated_at": "2024-03-14 05:27:02"
 }
