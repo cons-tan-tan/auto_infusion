@@ -37,7 +37,7 @@
                 "vacuos": 32
             }
         },
-        "Googles of Revealing": {
+        "Goggles of Revealing": {
             "product": "Warped Googles of Revealing",
             "amount": 1,
             "essentia": {
@@ -433,5 +433,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-14 04:14:28"
+    "updated_at": "2024-03-14 04:36:35"
 }
