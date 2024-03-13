@@ -1,5 +1,18 @@
 {
     "recipe": {
+        "Ichorcloth Boots": {
+            "product": "Boots of the Horizontal Shield",
+            "amount": 1,
+            "essentia": {
+                "herba": 64,
+                "iter": 64,
+                "lux": 64,
+                "motus": 64,
+                "perfodio": 64,
+                "terra": 64,
+                "tutamen": 64
+            }
+        },
         "Leather Boots": {
             "product": "Boots of the Traveler",
             "amount": 1,
@@ -443,5 +456,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-14 05:10:29"
+    "updated_at": "2024-03-14 05:21:59"
 }
