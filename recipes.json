@@ -1,5 +1,18 @@
 {
     "recipe": {
+        "Void Chestplate": {
+            "product": "Void Thaumaturge Robe",
+            "amount": 1,
+            "essentia": {
+                "alienis": 32,
+                "metallum": 32,
+                "pannus": 32,
+                "sensus": 32,
+                "tutamen": 32,
+                "vacuos": 32,
+                "praecantatio": 32
+            }
+        },
         "Alchemical Catalyst": {
             "product": "Elven Gateway Core",
             "amount": 1,
@@ -407,5 +420,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-14 03:28:03"
+    "updated_at": "2024-03-14 04:12:12"
 }
