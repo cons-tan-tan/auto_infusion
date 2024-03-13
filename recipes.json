@@ -12,7 +12,7 @@
             }
         },
         "Arcane Lamp": {
-            "product": "Lamp of the Growth",
+            "product": "Lamp of Growth",
             "amount": 1,
             "essentia": {
                 "herba": 20,
@@ -525,5 +525,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-14 05:49:27"
+    "updated_at": "2024-03-14 05:57:14"
 }
