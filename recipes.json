@@ -1,5 +1,16 @@
 {
     "recipe": {
+        "Googles of Revealing": {
+            "product": "Warped Googles of Revealing",
+            "amount": 1,
+            "essentia": {
+                "alienis": 40,
+                "praecantatio": 32,
+                "tenebrae": 24,
+                "tutamen": 16,
+                "sensus": 8
+            }
+        },
         "Warped Googles of Revealing": {
             "product": "Voidmetal Googles of Revealing",
             "amount": 1,
@@ -385,5 +396,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-14 02:39:57"
+    "updated_at": "2024-03-14 02:42:11"
 }
