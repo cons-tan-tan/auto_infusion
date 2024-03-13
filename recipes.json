@@ -1,5 +1,18 @@
 {
     "recipe": {
+        "Void Leggings": {
+            "product": "Void Thaumaturge Leggings",
+            "amount": 1,
+            "essentia": {
+                "alienis": 28,
+                "metallum": 28,
+                "pannus": 28,
+                "sensus": 28,
+                "tutamen": 28,
+                "vacuos": 28,
+                "praecantatio": 28
+            }
+        },
         "Void Chestplate": {
             "product": "Void Thaumaturge Robe",
             "amount": 1,
@@ -420,5 +433,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-14 04:12:12"
+    "updated_at": "2024-03-14 04:14:28"
 }
