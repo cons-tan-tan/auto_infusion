@@ -1,5 +1,15 @@
 {
     "recipe": {
+        "Leather Boots": {
+            "product": "Boots of the Traveler",
+            "amount": 1,
+            "essentia": {
+                "volatus": 25,
+                "aer": 25,
+                "iter": 25,
+                "aqua": 5
+            }
+        },
         "Void Leggings": {
             "product": "Void Thaumaturge Leggings",
             "amount": 1,
@@ -433,5 +443,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-14 04:44:30"
+    "updated_at": "2024-03-14 05:10:29"
 }
