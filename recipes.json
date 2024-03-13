@@ -1,5 +1,18 @@
 {
     "recipe": {
+        "Ichorcloth Leggings": {
+            "product": "Leggings of the Burning Mantle",
+            "amount": 1,
+            "essentia": {
+                "alienis": 64,
+                "ignis": 64,
+                "lucrum": 64,
+                "lux": 64,
+                "potentia": 64,
+                "sano": 64,
+                "tutamen": 64
+            }
+        },
         "Ichorcloth Boots": {
             "product": "Boots of the Horizontal Shield",
             "amount": 1,
@@ -456,5 +469,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-14 05:21:59"
+    "updated_at": "2024-03-14 05:23:44"
 }
