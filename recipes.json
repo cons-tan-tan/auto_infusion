@@ -38,7 +38,7 @@
             }
         },
         "Goggles of Revealing": {
-            "product": "Warped Googles of Revealing",
+            "product": "Warped Goggles of Revealing",
             "amount": 1,
             "essentia": {
                 "alienis": 40,
@@ -433,5 +433,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-14 04:43:42"
+    "updated_at": "2024-03-14 04:43:58"
 }
