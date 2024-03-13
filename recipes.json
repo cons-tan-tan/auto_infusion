@@ -1,5 +1,18 @@
 {
     "recipe": {
+        "Warped Googles of Revealing": {
+            "product": "Voidmetal Googles of Revealing",
+            "amount": 1,
+            "essentia": {
+                "vacuos": 64,
+                "tutamen": 48,
+                "sensus": 32,
+                "tenebrae": 32,
+                "vitreus": 24,
+                "metallum": 16,
+                "alienis": 8
+            }
+        },
         "Runic Matrix": {
             "product": "Runic Altar",
             "amount": 1,
@@ -372,5 +385,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-12 20:50:08"
+    "updated_at": "2024-03-14 02:39:57"
 }
