@@ -48,8 +48,8 @@
                 "sensus": 8
             }
         },
-        "Warped Googles of Revealing": {
-            "product": "Voidmetal Googles of Revealing",
+        "Warped Goggles of Revealing": {
+            "product": "Voidmetal Goggles of Revealing",
             "amount": 1,
             "essentia": {
                 "vacuos": 64,
@@ -433,5 +433,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-14 04:36:35"
+    "updated_at": "2024-03-14 04:43:42"
 }
