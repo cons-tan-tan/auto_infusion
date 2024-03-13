@@ -1,5 +1,14 @@
 {
     "recipe": {
+        "Seeds": {
+            "product": "Infused Seeds",
+            "amount": 1,
+            "essentia": {
+                "messis": 32,
+                "meto": 32,
+                "terra": 16
+            }
+        },
         "Ichorcloth Cowl": {
             "product": "Cowl of the Abyssal Depths",
             "amount": 1,
@@ -495,5 +504,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-14 05:27:02"
+    "updated_at": "2024-03-14 05:45:14"
 }
