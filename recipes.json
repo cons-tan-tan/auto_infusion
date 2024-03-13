@@ -1,5 +1,16 @@
 {
     "recipe": {
+        "Alchemical Catalyst": {
+            "product": "Elven Gateway Core",
+            "amount": 1,
+            "essentia": {
+                "iter": 64,
+                "praecantatio": 64,
+                "herba": 64,
+                "alienis": 64,
+                "vacuos": 32
+            }
+        },
         "Googles of Revealing": {
             "product": "Warped Googles of Revealing",
             "amount": 1,
@@ -396,5 +407,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-14 02:42:11"
+    "updated_at": "2024-03-14 03:28:03"
 }
