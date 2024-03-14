@@ -1,5 +1,17 @@
 {
     "recipe": {
+        "Block of Diamond": {
+            "product": "Beacon",
+            "amount": 1,
+            "essentia": {
+                "praecantatio": 64,
+                "alienis": 64,
+                "lux": 64,
+                "ordo": 64,
+                "ignis": 64,
+                "terra": 64
+            }
+        },
         "Electric Piston (MV)": {
             "product": "Arcane Bore",
             "amount": 1,
@@ -525,5 +537,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-14 22:19:59"
+    "updated_at": "2024-03-15 00:49:06"
 }
