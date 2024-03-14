@@ -118,7 +118,7 @@
                 "praecantatio": 32
             }
         },
-        "Alchemical Catalyst": {
+        "Alchemy Catalyst": {
             "product": "Elven Gateway Core",
             "amount": 1,
             "essentia": {
@@ -525,5 +525,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-14 05:57:14"
+    "updated_at": "2024-03-14 22:19:59"
 }
