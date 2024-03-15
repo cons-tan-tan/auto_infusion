@@ -1,5 +1,15 @@
 {
     "recipe": {
+        "Inert Void metal Cap": {
+            "product": "Charged Void metal Cap",
+            "amount": 1,
+            "essentia": {
+                "alienis": 32,
+                "auram": 32,
+                "potentia": 32,
+                "vacuos": 32
+            }
+        },
         "Silverwood Rod": {
             "product": "Ichor Woven Silverwood Wand Core",
             "amount": 1,
@@ -548,5 +558,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-15 10:37:41"
+    "updated_at": "2024-03-15 10:52:44"
 }
