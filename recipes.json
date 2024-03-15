@@ -1,5 +1,16 @@
 {
     "recipe": {
+        "Silverwood Rod": {
+            "product": "Ichor Woven Silverwood Wand Core",
+            "amount": 1,
+            "essentia": {
+                "praecantatio": 150,
+                "lux": 100,
+                "instrumentum": 100,
+                "arbor": 75,
+                "alienis": 50
+            }
+        },
         "Block of Diamond": {
             "product": "Beacon",
             "amount": 1,
@@ -537,5 +548,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-15 00:49:06"
+    "updated_at": "2024-03-15 10:37:41"
 }
