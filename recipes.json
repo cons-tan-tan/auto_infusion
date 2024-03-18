@@ -1,5 +1,15 @@
 {
     "recipe": {
+        "Thaumium Sword": {
+            "product": "Sword of the Zephyr",
+            "amount": 1,
+            "essentia": {
+                "aer": 20,
+                "motus": 20,
+                "potentia": 20,
+                "telum": 20
+            }
+        },
         "Sword of the Zephyr": {
             "product": "Wand Focus: Uprising",
             "amount": 1,
@@ -601,5 +611,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-19 03:22:55"
+    "updated_at": "2024-03-19 03:29:09"
 }
