@@ -1,5 +1,17 @@
 {
     "recipe": {
+        "Obsidian Rod": {
+            "product": "Tainted Rod",
+            "amount": 1,
+            "essentia": {
+                "perditio": 48,
+                "vitium": 32,
+                "tenebrae": 32,
+                "venenum": 24,
+                "praecantatio": 16,
+                "alienis": 8
+            }
+        },
         "Obsidian Stick": {
             "product": "Obsidian Rod",
             "amount": 1,
@@ -568,5 +580,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-19 01:16:57"
+    "updated_at": "2024-03-19 01:19:06"
 }
