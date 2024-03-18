@@ -1,5 +1,15 @@
 {
     "recipe": {
+        "Sword of the Zephyr": {
+            "product": "Wand Focus: Uprising",
+            "amount": 1,
+            "essentia": {
+                "aer": 48,
+                "motus": 32,
+                "iter": 24,
+                "volatus": 24
+            }
+        },
         "Leather Tunic": {
             "product": "Thaumostatic Harness",
             "amount": 1,
@@ -591,5 +601,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-19 03:05:46"
+    "updated_at": "2024-03-19 03:22:55"
 }
