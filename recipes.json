@@ -1,5 +1,16 @@
 {
     "recipe": {
+        "Wand Focus: Uprising": {
+            "product": "Wand Focus: Distortion",
+            "amount": 1,
+            "essentia": {
+                "aer": 32,
+                "tutamen": 32,
+                "ordo": 24,
+                "auram": 24,
+                "alienis": 16
+            }
+        },
         "Thaumium Sword": {
             "product": "Sword of the Zephyr",
             "amount": 1,
@@ -611,5 +622,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-19 03:29:09"
+    "updated_at": "2024-03-19 03:31:55"
 }
