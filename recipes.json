@@ -1,5 +1,16 @@
 {
     "recipe": {
+        "Leather Tunic": {
+            "product": "Thaumostatic Harness",
+            "amount": 1,
+            "essentia": {
+                "machina": 64,
+                "iter": 32,
+                "potentia": 32,
+                "volatus": 32,
+                "tutamen": 16
+            }
+        },
         "Obsidian Rod": {
             "product": "Tainted Rod",
             "amount": 1,
@@ -580,5 +591,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-19 01:19:06"
+    "updated_at": "2024-03-19 03:05:46"
 }
