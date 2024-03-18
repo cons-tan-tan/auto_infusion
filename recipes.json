@@ -1,5 +1,15 @@
 {
     "recipe": {
+        "Obsidian Stick": {
+            "product": "Obsidian Rod",
+            "amount": 1,
+            "essentia": {
+                "terra": 24,
+                "praecantatio": 12,
+                "tenebrae": 12,
+                "vitreus": 6
+            }
+        },
         "Inert Void metal Cap": {
             "product": "Charged Void metal Cap",
             "amount": 1,
@@ -558,5 +568,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-15 10:52:44"
+    "updated_at": "2024-03-19 01:16:57"
 }
