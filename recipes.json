@@ -1,5 +1,21 @@
 {
     "recipe": {
+        "Bewitched Fleece": {
+            "product": "Primordial Gauntlet",
+            "amount": 1,
+            "sub": "Node Transducer",
+            "essentia": {
+                "praecantatio": 512,
+                "vitreus": 256,
+                "instrumentum": 128,
+                "aer": 128,
+                "ignis": 128,
+                "aqua": 128,
+                "terra": 128,
+                "ordo": 128,
+                "perditio": 128
+            }
+        },
         "Vambraces": {
             "product": "Vambraces of Steady Progression",
             "amount": 1,
@@ -696,10 +712,10 @@
         }
     },
     "sub": {
+        "Node Transducer": true,
         "Flower Pot": true,
         "Essentia Buffer": true,
-        "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-20 01:39:32"
+    "updated_at": "2024-03-20 03:33:27"
 }
