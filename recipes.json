@@ -1,5 +1,19 @@
 {
     "recipe": {
+        "Ichorium Pickaxe": {
+            "product": "Awakened Ichorium Pickaxe",
+            "amount": 1,
+            "essentia": {
+                "ignis": 64,
+                "lucrum": 64,
+                "metallum": 64,
+                "meto": 64,
+                "messis": 64,
+                "perfodio": 64,
+                "terra": 64,
+                "sensus": 64
+            }
+        },
         "Bewitched Fleece": {
             "product": "Primordial Gauntlet",
             "amount": 1,
@@ -717,5 +731,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-20 03:33:27"
+    "updated_at": "2024-03-20 04:24:51"
 }
