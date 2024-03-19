@@ -1,5 +1,17 @@
 {
     "recipe": {
+        "Advanced Node Stabilizer": {
+            "product": "Vortex Attenuator",
+            "amount": 1,
+            "essentia": {
+                "auram": 64,
+                "machina": 48,
+                "potentia": 48,
+                "fames": 32,
+                "ordo": 32,
+                "vinculum": 32
+            }
+        },
         "Nether Star Lens": {
             "product": "Wand Focus: Warding",
             "amount": 1,
@@ -678,5 +690,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-20 00:47:36"
+    "updated_at": "2024-03-20 00:48:14"
 }
