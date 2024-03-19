@@ -1,5 +1,17 @@
 {
     "recipe": {
+        "TPV-Alloy Coil Block": {
+            "product": "Everburn Urn",
+            "amount": 1,
+            "sub": "Flower Pot",
+            "essentia": {
+                "ignis": 64,
+                "praecantatio": 48,
+                "vacuos": 32,
+                "alienis": 32,
+                "lucrum": 16
+            }
+        },
         "Mana Pylon": {
             "product": "Gaia Pylon",
             "amount": 1,
@@ -638,9 +650,10 @@
         }
     },
     "sub": {
+        "Flower Pot": true,
         "Essentia Buffer": true,
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-19 21:47:01"
+    "updated_at": "2024-03-19 21:55:42"
 }
