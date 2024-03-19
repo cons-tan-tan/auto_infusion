@@ -1,5 +1,17 @@
 {
     "recipe": {
+        "Nether Brick": {
+            "product": "Everfull Urn",
+            "amount": 1,
+            "sub": "Flower Pot",
+            "essentia": {
+                "aqua": 64,
+                "praecantatio": 48,
+                "vacuos": 32,
+                "alienis": 32,
+                "lucrum": 16
+            }
+        },
         "TPV-Alloy Coil Block": {
             "product": "Everburn Urn",
             "amount": 1,
@@ -655,5 +667,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-19 21:55:42"
+    "updated_at": "2024-03-19 22:17:58"
 }
