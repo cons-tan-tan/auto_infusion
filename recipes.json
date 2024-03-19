@@ -1,5 +1,16 @@
 {
     "recipe": {
+        "Mana Pylon": {
+            "product": "Gaia Pylon",
+            "amount": 1,
+            "essentia": {
+                "alienis": 64,
+                "vinculum": 64,
+                "praecantatio": 64,
+                "tenebrae": 32,
+                "vitreus": 32
+            }
+        },
         "Balanced Shard": {
             "product": "Ethereal Shard",
             "amount": 1,
@@ -631,5 +642,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-19 21:18:29"
+    "updated_at": "2024-03-19 21:47:01"
 }
