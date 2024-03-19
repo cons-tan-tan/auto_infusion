@@ -1,5 +1,16 @@
 {
     "recipe": {
+        "Nether Star Lens": {
+            "product": "Wand Focus: Warding",
+            "amount": 1,
+            "essentia": {
+                "terra": 30,
+                "ordo": 25,
+                "tutamen": 25,
+                "cognitio": 15,
+                "praecantatio": 10
+            }
+        },
         "Nether Brick": {
             "product": "Everfull Urn",
             "amount": 1,
@@ -667,5 +678,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-19 22:17:58"
+    "updated_at": "2024-03-19 23:05:32"
 }
