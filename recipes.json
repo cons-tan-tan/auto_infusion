@@ -1,5 +1,14 @@
 {
     "recipe": {
+        "Balanced Shard": {
+            "product": "Ethereal Shard",
+            "amount": 1,
+            "essentia": {
+                "potentia": 32,
+                "vacuos": 32,
+                "auram": 8
+            }
+        },
         "Wand Focus: Uprising": {
             "product": "Wand Focus: Distortion",
             "amount": 1,
@@ -622,5 +631,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-19 03:31:55"
+    "updated_at": "2024-03-19 21:18:29"
 }
