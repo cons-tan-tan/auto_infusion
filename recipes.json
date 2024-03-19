@@ -1,5 +1,16 @@
 {
     "recipe": {
+        "Vambraces": {
+            "product": "Vambraces of Steady Progression",
+            "amount": 1,
+            "essentia": {
+                "perfodio": 48,
+                "instrumentum": 24,
+                "motus": 24,
+                "aer": 16,
+                "nebrisum": 8
+            }
+        },
         "Advanced Node Stabilizer": {
             "product": "Vortex Attenuator",
             "amount": 1,
@@ -690,5 +701,5 @@
         "Node Transducer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-20 00:48:14"
+    "updated_at": "2024-03-20 01:39:32"
 }
