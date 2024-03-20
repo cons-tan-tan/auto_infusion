@@ -1,5 +1,16 @@
 {
     "recipe": {
+        "Jeweled Apple": {
+            "product": "Miniature Green Heart",
+            "amount": 1,
+            "essentia": {
+                "sano": 200,
+                "praecantatio": 200,
+                "ignis": 150,
+                "lucrum": 150,
+                "exanimis": 100
+            }
+        },
         "Shadowmetal Sword": {
             "product": "Wand Focus: Mage's Mace",
             "amount": 1,
@@ -792,5 +803,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-21 05:59:58"
+    "updated_at": "2024-03-21 06:48:17"
 }
