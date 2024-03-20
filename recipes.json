@@ -1,5 +1,15 @@
 {
     "recipe": {
+        "Hardened Ice": {
+            "product": "Icy Rod",
+            "amount": 1,
+            "essentia": {
+                "aqua": 24,
+                "gelum": 12,
+                "praecantatio": 12,
+                "vitreus": 6
+            }
+        },
         "Charged Certus Quartz Rod": {
             "product": "Quartz Rod",
             "amount": 1,
@@ -854,5 +864,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-21 07:20:43"
+    "updated_at": "2024-03-21 07:23:16"
 }
