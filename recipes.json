@@ -1,5 +1,19 @@
 {
     "recipe": {
+        "Thaumium Anvil": {
+            "product": "Void metal Anvil",
+            "amount": 1,
+            "essentia": {
+                "telum": 32,
+                "instrumentum": 32,
+                "fabrico": 32,
+                "alienis": 32,
+                "tenebrae": 16,
+                "vacuos": 16,
+                "metallum": 16,
+                "praecantatio": 16
+            }
+        },
         "Pure Tear": {
             "product": "Purification Talisman",
             "amount": 1,
@@ -754,5 +768,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-20 14:51:08"
+    "updated_at": "2024-03-20 20:13:12"
 }
