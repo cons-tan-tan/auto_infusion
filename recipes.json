@@ -1,5 +1,17 @@
 {
     "recipe": {
+        "Pure Tear": {
+            "product": "Purification Talisman",
+            "amount": 1,
+            "sub": "Mundane Amulet",
+            "essentia": {
+                "alienis": 64,
+                "praecantatio": 64,
+                "auram": 32,
+                "potentia": 32,
+                "permutatio": 32
+            }
+        },
         "Thaumium Pickaxe": {
             "product": "Pickaxe of the Core",
             "amount": 1,
@@ -736,10 +748,11 @@
         }
     },
     "sub": {
+        "Mundane Amulet": true,
         "Node Transducer": true,
         "Flower Pot": true,
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-20 04:26:24"
+    "updated_at": "2024-03-20 14:51:08"
 }
