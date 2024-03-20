@@ -313,9 +313,10 @@
                 "vacuos": 32
             }
         },
-        "Silverwood Rod": {
+        "Ichorcloth": {
             "product": "Ichor Woven Silverwood Wand Core",
             "amount": 1,
+            "sub": "Silverwood Rod",
             "essentia": {
                 "praecantatio": 150,
                 "lux": 100,
@@ -861,8 +862,9 @@
         "Mundane Amulet": true,
         "Node Transducer": true,
         "Flower Pot": true,
+        "Silverwood Rod": true,
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-21 07:23:16"
+    "updated_at": "2024-03-21 07:39:35"
 }
