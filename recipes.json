@@ -1,5 +1,15 @@
 {
     "recipe": {
+        "Blaze Rod": {
+            "product": "Blazing Rod",
+            "amount": 1,
+            "essentia": {
+                "ignis": 24,
+                "bestia": 12,
+                "praecantatio": 12,
+                "vitreus": 6
+            }
+        },
         "Bone Tool Rod": {
             "product": "Bone Rod",
             "amount": 1,
@@ -824,5 +834,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-21 06:59:36"
+    "updated_at": "2024-03-21 07:07:14"
 }
