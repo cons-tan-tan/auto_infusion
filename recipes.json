@@ -1,5 +1,16 @@
 {
     "recipe": {
+        "Golden Apple": {
+            "product": "Miniature Yellow Heart",
+            "amount": 1,
+            "essentia": {
+                "sano": 100,
+                "praecantatio": 100,
+                "ignis": 75,
+                "lucrum": 75,
+                "exanimis": 50
+            }
+        },
         "Jeweled Apple": {
             "product": "Miniature Green Heart",
             "amount": 1,
@@ -803,5 +814,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-21 06:48:17"
+    "updated_at": "2024-03-21 06:55:51"
 }
