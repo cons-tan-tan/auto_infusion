@@ -1,5 +1,19 @@
 {
     "recipe": {
+        "Icy Rod": {
+            "product": "Staff Core of the Primal",
+            "amount": 1,
+            "sub": "Silverwood Rod",
+            "essentia": {
+                "praecantatio": 128,
+                "aer": 64,
+                "aqua": 64,
+                "terra": 64,
+                "ignis": 64,
+                "ordo": 64,
+                "perditio": 64
+            }
+        },
         "Hardened Ice": {
             "product": "Icy Rod",
             "amount": 1,
@@ -858,13 +872,13 @@
         }
     },
     "sub": {
+        "Silverwood Rod": true,
         "Mundane Ring": true,
         "Mundane Amulet": true,
         "Node Transducer": true,
         "Flower Pot": true,
-        "Silverwood Rod": true,
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-21 07:39:35"
+    "updated_at": "2024-03-21 07:42:54"
 }
