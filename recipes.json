@@ -1,5 +1,15 @@
 {
     "recipe": {
+        "Punji Stick": {
+            "product": "Reed Rod",
+            "amount": 1,
+            "essentia": {
+                "aer": 24,
+                "motus": 12,
+                "praecantatio": 12,
+                "vitreus": 6
+            }
+        },
         "Blaze Rod": {
             "product": "Blazing Rod",
             "amount": 1,
@@ -834,5 +844,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-21 07:07:14"
+    "updated_at": "2024-03-21 07:15:52"
 }
