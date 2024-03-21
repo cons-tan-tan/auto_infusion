@@ -15,6 +15,7 @@
         "Primordial Pearl": {
             "product": "Extremely Primordial Pearl",
             "amount": 1,
+            "sub": "Primordial Pearl",
             "essentia": {
                 "alienis": 64,
                 "praecantatio": 64,
@@ -944,6 +945,7 @@
         }
     },
     "sub": {
+        "Primordial Pearl": true,
         "Brewing Stand": true,
         "Silverwood Rod": true,
         "Mundane Ring": true,
@@ -953,5 +955,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-21 23:57:21"
+    "updated_at": "2024-03-22 01:45:31"
 }
