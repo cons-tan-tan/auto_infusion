@@ -1,5 +1,16 @@
 {
     "recipe": {
+        "Energy Crystal": {
+            "product": "Wand Focus: Charging",
+            "amount": 1,
+            "essentia": {
+                "permutatio": 48,
+                "machina": 32,
+                "potentia": 24,
+                "praecantatio": 16,
+                "cognitio": 8
+            }
+        },
         "Icy Rod": {
             "product": "Staff Core of the Primal",
             "amount": 1,
@@ -880,5 +891,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-21 07:42:54"
+    "updated_at": "2024-03-21 17:02:20"
 }
