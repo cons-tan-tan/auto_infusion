@@ -1,5 +1,17 @@
 {
     "recipe": {
+        "Draconic Evolution Information Tablet": {
+            "product": "Runed Tablet",
+            "amount": 1,
+            "essentia": {
+                "praecantatio": 128,
+                "alienis": 64,
+                "cognitio": 64,
+                "iter": 32,
+                "tenebrae": 32,
+                "vacuos": 32
+            }
+        },
         "Wand Focus: Charging": {
             "product": "Wand Focus: Maintenance",
             "amount": 1,
@@ -903,5 +915,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-21 17:04:55"
+    "updated_at": "2024-03-21 18:56:42"
 }
