@@ -1,5 +1,16 @@
 {
     "recipe": {
+        "Flawless Amber": {
+            "product": "Girdle of Runic Shielding",
+            "amount": 1,
+            "sub": "Mundane Belt",
+            "essentia": {
+                "potentia": 55,
+                "tutamen": 55,
+                "praecantatio": 55,
+                "alienis": 35
+            }
+        },
         "Traveller's Wings": {
             "product": "Angel Ring",
             "amount": 1,
@@ -945,6 +956,7 @@
         }
     },
     "sub": {
+        "Mundane Belt": true,
         "Primordial Pearl": true,
         "Brewing Stand": true,
         "Silverwood Rod": true,
@@ -955,5 +967,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-22 02:45:17"
+    "updated_at": "2024-03-22 05:36:38"
 }
