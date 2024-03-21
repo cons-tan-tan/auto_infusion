@@ -35,27 +35,43 @@ local function getInsufficientEssentia()
     return matrix.getAspects().aspects
 end
 
+local q = {}
+
 local function refillEssentia(order_list)
     local essentia = interface.getEssentiaList()
+    local is_enough = true
     for aspect, amount in pairs(order_list) do
         local remaining = essentia[aspect]
         if remaining == nil then
             remaining = 0
         end
         if remaining < amount + margin then
-            local q = interface.orderEssentia(aspect, amount + margin - remaining)
-            if q == nil then
-                print(aspect .. " recipe not found")
-                return false
-            elseif q.isCanceled() then
-                print(aspect .. " unable to order")
-                return false
+            is_enough = false
+            local order_amount = amount + margin - remaining
+            if q[aspect] == nil then
+                q[aspect] = interface.orderEssentia(aspect, order_amount)
+                if q[aspect] == nil then
+                    print(aspect .. " recipe not found")
+                elseif q[aspect].isCanceled() then
+                    q[aspect] = nil
+                    print(aspect .. " unable to order")
+                else
+                    print(aspect .. " ordered")
+                end
             else
-                print(aspect .. " ordered")
+                if q[aspect].isDone() then
+                    q[aspect] = nil
+                    print(aspect.."("..order_amount.."): " .. "lost after crafting")
+                end
             end
         end
     end
-    return true
+    if is_enough then
+        q = {}
+        return true
+    else
+        return false
+    end
 end
 
 local function infusion(product)
