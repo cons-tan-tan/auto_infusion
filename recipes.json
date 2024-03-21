@@ -1,5 +1,15 @@
 {
     "recipe": {
+        "Livingrock Slab": {
+            "product": "Botanical Brewery",
+            "amount": 1,
+            "sub": "Brewing Stand",
+            "essentia": {
+                "machina": 32,
+                "humanus": 16,
+                "praecantatio": 16
+            }
+        },
         "Draconic Evolution Information Tablet": {
             "product": "Runed Tablet",
             "amount": 1,
@@ -907,6 +917,7 @@
         }
     },
     "sub": {
+        "Brewing Stand": true,
         "Silverwood Rod": true,
         "Mundane Ring": true,
         "Mundane Amulet": true,
@@ -915,5 +926,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-21 18:56:42"
+    "updated_at": "2024-03-21 19:05:16"
 }
