@@ -1,5 +1,17 @@
 {
     "recipe": {
+        "Traveller's Wings": {
+            "product": "Angel Ring",
+            "amount": 1,
+            "essentia": {
+                "praecantatio": 200,
+                "volatus": 200,
+                "tempus": 200,
+                "nebrisum": 200,
+                "motus": 200,
+                "terminus": 200
+            }
+        },
         "Primordial Pearl": {
             "product": "Extremely Primordial Pearl",
             "amount": 1,
@@ -941,5 +953,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-21 23:36:58"
+    "updated_at": "2024-03-21 23:57:21"
 }
