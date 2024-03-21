@@ -1,5 +1,16 @@
 {
     "recipe": {
+        "Enchanted Fabric": {
+            "product": "Amulet of Runic Shielding",
+            "amount": 1,
+            "sub": "Mundane Amulet",
+            "essentia": {
+                "potentia": 40,
+                "tutamen": 40,
+                "praecantatio": 40,
+                "alienis": 20
+            }
+        },
         "Exquisite Tanzanite": {
             "product": "Voidwalker's Sash of Runic Shielding",
             "amount": 1,
@@ -969,16 +980,16 @@
         }
     },
     "sub": {
+        "Mundane Amulet": true,
         "Mundane Belt": true,
         "Primordial Pearl": true,
         "Brewing Stand": true,
         "Silverwood Rod": true,
         "Mundane Ring": true,
-        "Mundane Amulet": true,
         "Node Transducer": true,
         "Flower Pot": true,
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-22 05:48:48"
+    "updated_at": "2024-03-22 06:40:16"
 }
