@@ -1,5 +1,20 @@
 {
     "recipe": {
+        "Primordial Pearl": {
+            "product": "Extremely Primordial Pearl",
+            "amount": 1,
+            "essentia": {
+                "alienis": 64,
+                "praecantatio": 64,
+                "aqua": 64,
+                "ignis": 64,
+                "terra": 64,
+                "aer": 64,
+                "ordo": 64,
+                "perditio": 64,
+                "terminus": 32
+            }
+        },
         "Livingrock Slab": {
             "product": "Botanical Brewery",
             "amount": 1,
@@ -926,5 +941,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-21 19:05:16"
+    "updated_at": "2024-03-21 23:36:58"
 }
