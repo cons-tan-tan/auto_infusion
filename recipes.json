@@ -6,7 +6,7 @@
             "essentia": {
                 "praecantatio": 200,
                 "volatus": 200,
-                "tempus": 200,
+                "tempestas": 200,
                 "nebrisum": 200,
                 "motus": 200,
                 "terminus": 200
@@ -955,5 +955,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-22 01:45:31"
+    "updated_at": "2024-03-22 02:45:17"
 }
