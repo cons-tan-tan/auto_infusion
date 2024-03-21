@@ -1,5 +1,18 @@
 {
     "recipe": {
+        "Exquisite Tanzanite": {
+            "product": "Voidwalker's Sash of Runic Shielding",
+            "amount": 1,
+            "essentia": {
+                "tutamen": 84,
+                "vacuos": 72,
+                "praecantatio": 64,
+                "iter": 48,
+                "volatus": 32,
+                "alienis": 24,
+                "aer": 16
+            }
+        },
         "Flawless Amber": {
             "product": "Girdle of Runic Shielding",
             "amount": 1,
@@ -967,5 +980,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-22 05:36:38"
+    "updated_at": "2024-03-22 05:48:48"
 }
