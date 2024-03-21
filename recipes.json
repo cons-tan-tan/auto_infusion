@@ -1,5 +1,18 @@
 {
     "recipe": {
+        "Tungsten Ring": {
+            "product": "Warpwood Rod",
+            "amount": 1,
+            "sub": "Primordial Pearl",
+            "essentia": {
+                "alienis": 64,
+                "arbor": 64,
+                "praecantatio": 64,
+                "tenebrae": 48,
+                "instrumentum": 32,
+                "terra": 24
+            }
+        },
         "Enchanted Fabric": {
             "product": "Amulet of Runic Shielding",
             "amount": 1,
@@ -980,9 +993,9 @@
         }
     },
     "sub": {
+        "Primordial Pearl": true,
         "Mundane Amulet": true,
         "Mundane Belt": true,
-        "Primordial Pearl": true,
         "Brewing Stand": true,
         "Silverwood Rod": true,
         "Mundane Ring": true,
@@ -991,5 +1004,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-22 06:40:16"
+    "updated_at": "2024-03-22 07:39:43"
 }
