@@ -1,5 +1,17 @@
 {
     "recipe": {
+        "Wand Focus: Charging": {
+            "product": "Wand Focus: Maintenance",
+            "amount": 1,
+            "essentia": {
+                "instrumentum": 64,
+                "praecantatio": 64,
+                "permutatio": 48,
+                "fabrico": 32,
+                "machina": 32,
+                "potentia": 32
+            }
+        },
         "Energy Crystal": {
             "product": "Wand Focus: Charging",
             "amount": 1,
@@ -891,5 +903,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-21 17:02:20"
+    "updated_at": "2024-03-21 17:04:55"
 }
