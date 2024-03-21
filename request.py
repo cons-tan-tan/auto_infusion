@@ -11,11 +11,7 @@ def main():
     prepare_env()
     try:
         data = serialize(get_recipe())
-        result, key = is_valid(data)
-        if result:
-            write_to_file(data)
-        else:
-            raise Exception(key + "はサブキーとして登録されています")
+        write_to_file(data)
     except Exception as e:
         post_to_discord()
         raise e
@@ -88,13 +84,6 @@ def serialize(raw_data) -> dict:
     data["updated_at"] = now.strftime("%Y-%m-%d %H:%M:%S")
 
     return data
-
-
-def is_valid(data) -> tuple[bool, str]:
-    sub = data["sub"]
-    for key in data["recipe"]:
-        if key in sub: return False, key
-    return True, None
 
 
 def write_to_file(data):
