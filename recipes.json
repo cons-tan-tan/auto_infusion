@@ -1,5 +1,16 @@
 {
     "recipe": {
+        "Enderpearl Lens": {
+            "product": "Wand Focus: Portable Hole",
+            "amount": 1,
+            "essentia": {
+                "alienis": 40,
+                "iter": 30,
+                "perditio": 20,
+                "permutatio": 10,
+                "praecantatio": 5
+            }
+        },
         "Hungry Chest": {
             "product": "Traveling Trunk",
             "amount": 1,
@@ -1025,5 +1036,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-24 03:17:02"
+    "updated_at": "2024-03-24 03:18:46"
 }
