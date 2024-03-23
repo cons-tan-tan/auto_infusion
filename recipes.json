@@ -1,5 +1,15 @@
 {
     "recipe": {
+        "Hungry Chest": {
+            "product": "Traveling Trunk",
+            "amount": 1,
+            "essentia": {
+                "vacuos": 32,
+                "iter": 16,
+                "motus": 16,
+                "spiritus": 16
+            }
+        },
         "Focus Pouch": {
             "product": "Bottomless Pouch",
             "amount": 1,
@@ -1015,5 +1025,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-24 03:13:59"
+    "updated_at": "2024-03-24 03:17:02"
 }
