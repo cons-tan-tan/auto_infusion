@@ -1,5 +1,20 @@
 {
     "recipe": {
+        "Inert Pearl Fragment": {
+            "product": "Primordial Pearl",
+            "amount": 1,
+            "essentia": {
+                "ordo": 256,
+                "ignis": 256,
+                "terra": 256,
+                "aqua": 256,
+                "aer": 256,
+                "perditio": 256,
+                "auram": 64,
+                "praecantatio": 64,
+                "vitium": 64
+            }
+        },
         "Enderpearl Lens": {
             "product": "Wand Focus: Portable Hole",
             "amount": 1,
@@ -1036,5 +1051,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-24 03:18:46"
+    "updated_at": "2024-03-24 06:17:29"
 }
