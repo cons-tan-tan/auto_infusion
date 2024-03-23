@@ -1,5 +1,16 @@
 {
     "recipe": {
+        "Focus Pouch": {
+            "product": "Bottomless Pouch",
+            "amount": 1,
+            "essentia": {
+                "vacuos": 64,
+                "aer": 64,
+                "humanus": 48,
+                "pannus": 48,
+                "alienis": 48
+            }
+        },
         "Tungsten Ring": {
             "product": "Warpwood Rod",
             "amount": 1,
@@ -1004,5 +1015,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-22 07:39:43"
+    "updated_at": "2024-03-24 03:13:59"
 }
