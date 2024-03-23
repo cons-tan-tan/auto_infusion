@@ -1,5 +1,15 @@
 {
     "recipe": {
+        "Eye of Galgador": {
+            "product": "Eldritch Eye",
+            "amount": 1,
+            "essentia": {
+                "alienis": 64,
+                "iter": 32,
+                "tenebrae": 32,
+                "vacuos": 32
+            }
+        },
         "Inert Pearl Fragment": {
             "product": "Primordial Pearl",
             "amount": 1,
@@ -1051,5 +1061,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-24 06:17:29"
+    "updated_at": "2024-03-24 08:14:42"
 }
