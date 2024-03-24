@@ -77,7 +77,7 @@ local function infusion(product)
     accelerator.turnOn()
     claw.trigger()
     while pedestal.getCenterItem() ~= product do
-        os.sleep(1)
+        os.sleep(0.5)
     end
     claw.init()
     accelerator.turnOff()
