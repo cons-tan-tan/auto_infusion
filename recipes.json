@@ -1,5 +1,16 @@
 {
     "recipe": {
+        "Flawless Diamond": {
+            "product": "Silky Jewel",
+            "amount": 1,
+            "essentia": {
+                "ordo": 35,
+                "praecantatio": 35,
+                "ignis": 20,
+                "terra": 20,
+                "vitreus": 20
+            }
+        },
         "Eye of Galgador": {
             "product": "Eldritch Eye",
             "amount": 1,
@@ -1061,5 +1072,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-24 08:14:42"
+    "updated_at": "2024-03-24 09:50:09"
 }
