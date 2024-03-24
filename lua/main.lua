@@ -1,6 +1,5 @@
 local component = require("component")
 local event = require("event")
-local thread = require("thread")
 
 local claw = require("claw")
 local accelerator = require("accelerator")
