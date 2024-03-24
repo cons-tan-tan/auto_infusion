@@ -28,6 +28,9 @@ local function getRecipe(item)
             error("error: recipe not found", 0)
         end
     end
+    if recipe.amount == nil then
+        recipe.amount = 1
+    end
     return recipe
 end
 
