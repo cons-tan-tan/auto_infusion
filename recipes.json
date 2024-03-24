@@ -2,7 +2,6 @@
     "recipe": {
         "Flawless Diamond": {
             "product": "Silky Jewel",
-            "amount": 1,
             "essentia": {
                 "ordo": 35,
                 "praecantatio": 35,
@@ -13,7 +12,6 @@
         },
         "Eye of Galgador": {
             "product": "Eldritch Eye",
-            "amount": 1,
             "essentia": {
                 "alienis": 64,
                 "iter": 32,
@@ -23,7 +21,6 @@
         },
         "Inert Pearl Fragment": {
             "product": "Primordial Pearl",
-            "amount": 1,
             "essentia": {
                 "ordo": 256,
                 "ignis": 256,
@@ -38,7 +35,6 @@
         },
         "Enderpearl Lens": {
             "product": "Wand Focus: Portable Hole",
-            "amount": 1,
             "essentia": {
                 "alienis": 40,
                 "iter": 30,
@@ -49,7 +45,6 @@
         },
         "Hungry Chest": {
             "product": "Traveling Trunk",
-            "amount": 1,
             "essentia": {
                 "vacuos": 32,
                 "iter": 16,
@@ -59,7 +54,6 @@
         },
         "Focus Pouch": {
             "product": "Bottomless Pouch",
-            "amount": 1,
             "essentia": {
                 "vacuos": 64,
                 "aer": 64,
@@ -70,7 +64,6 @@
         },
         "Tungsten Ring": {
             "product": "Warpwood Rod",
-            "amount": 1,
             "sub": "Primordial Pearl",
             "essentia": {
                 "alienis": 64,
@@ -83,7 +76,6 @@
         },
         "Enchanted Fabric": {
             "product": "Amulet of Runic Shielding",
-            "amount": 1,
             "sub": "Mundane Amulet",
             "essentia": {
                 "potentia": 40,
@@ -94,7 +86,6 @@
         },
         "Exquisite Tanzanite": {
             "product": "Voidwalker's Sash of Runic Shielding",
-            "amount": 1,
             "essentia": {
                 "tutamen": 84,
                 "vacuos": 72,
@@ -107,7 +98,6 @@
         },
         "Flawless Amber": {
             "product": "Girdle of Runic Shielding",
-            "amount": 1,
             "sub": "Mundane Belt",
             "essentia": {
                 "potentia": 55,
@@ -118,7 +108,6 @@
         },
         "Traveller's Wings": {
             "product": "Angel Ring",
-            "amount": 1,
             "essentia": {
                 "praecantatio": 200,
                 "volatus": 200,
@@ -130,7 +119,6 @@
         },
         "Primordial Pearl": {
             "product": "Extremely Primordial Pearl",
-            "amount": 1,
             "sub": "Primordial Pearl",
             "essentia": {
                 "alienis": 64,
@@ -146,7 +134,6 @@
         },
         "Livingrock Slab": {
             "product": "Botanical Brewery",
-            "amount": 1,
             "sub": "Brewing Stand",
             "essentia": {
                 "machina": 32,
@@ -156,7 +143,6 @@
         },
         "Draconic Evolution Information Tablet": {
             "product": "Runed Tablet",
-            "amount": 1,
             "essentia": {
                 "praecantatio": 128,
                 "alienis": 64,
@@ -168,7 +154,6 @@
         },
         "Wand Focus: Charging": {
             "product": "Wand Focus: Maintenance",
-            "amount": 1,
             "essentia": {
                 "instrumentum": 64,
                 "praecantatio": 64,
@@ -180,7 +165,6 @@
         },
         "Energy Crystal": {
             "product": "Wand Focus: Charging",
-            "amount": 1,
             "essentia": {
                 "permutatio": 48,
                 "machina": 32,
@@ -191,7 +175,6 @@
         },
         "Icy Rod": {
             "product": "Staff Core of the Primal",
-            "amount": 1,
             "sub": "Silverwood Rod",
             "essentia": {
                 "praecantatio": 128,
@@ -205,7 +188,6 @@
         },
         "Hardened Ice": {
             "product": "Icy Rod",
-            "amount": 1,
             "essentia": {
                 "aqua": 24,
                 "gelum": 12,
@@ -215,7 +197,6 @@
         },
         "Charged Certus Quartz Rod": {
             "product": "Quartz Rod",
-            "amount": 1,
             "essentia": {
                 "ordo": 24,
                 "praecantatio": 12,
@@ -225,7 +206,6 @@
         },
         "Punji Stick": {
             "product": "Reed Rod",
-            "amount": 1,
             "essentia": {
                 "aer": 24,
                 "motus": 12,
@@ -235,7 +215,6 @@
         },
         "Blaze Rod": {
             "product": "Blazing Rod",
-            "amount": 1,
             "essentia": {
                 "ignis": 24,
                 "bestia": 12,
@@ -245,7 +224,6 @@
         },
         "Bone Tool Rod": {
             "product": "Bone Rod",
-            "amount": 1,
             "essentia": {
                 "perditio": 24,
                 "exanimis": 12,
@@ -255,7 +233,6 @@
         },
         "Golden Apple": {
             "product": "Miniature Yellow Heart",
-            "amount": 1,
             "essentia": {
                 "sano": 100,
                 "praecantatio": 100,
@@ -266,7 +243,6 @@
         },
         "Jeweled Apple": {
             "product": "Miniature Green Heart",
-            "amount": 1,
             "essentia": {
                 "sano": 200,
                 "praecantatio": 200,
@@ -277,7 +253,6 @@
         },
         "Shadowmetal Sword": {
             "product": "Wand Focus: Mage's Mace",
-            "amount": 1,
             "essentia": {
                 "telum": 64,
                 "praecantatio": 48,
@@ -288,7 +263,6 @@
         },
         "Fresh Milk": {
             "product": "Wither Protection Ring",
-            "amount": 1,
             "sub": "Mundane Ring",
             "essentia": {
                 "alienis": 45,
@@ -300,7 +274,6 @@
         },
         "Thaumium Anvil": {
             "product": "Void metal Anvil",
-            "amount": 1,
             "essentia": {
                 "telum": 32,
                 "instrumentum": 32,
@@ -314,7 +287,6 @@
         },
         "Pure Tear": {
             "product": "Purification Talisman",
-            "amount": 1,
             "sub": "Mundane Amulet",
             "essentia": {
                 "alienis": 64,
@@ -326,7 +298,6 @@
         },
         "Thaumium Pickaxe": {
             "product": "Pickaxe of the Core",
-            "amount": 1,
             "essentia": {
                 "ignis": 20,
                 "perfodio": 20,
@@ -336,7 +307,6 @@
         },
         "Ichorium Pickaxe": {
             "product": "Awakened Ichorium Pickaxe",
-            "amount": 1,
             "essentia": {
                 "ignis": 64,
                 "lucrum": 64,
@@ -350,7 +320,6 @@
         },
         "Bewitched Fleece": {
             "product": "Primordial Gauntlet",
-            "amount": 1,
             "sub": "Node Transducer",
             "essentia": {
                 "praecantatio": 512,
@@ -366,7 +335,6 @@
         },
         "Vambraces": {
             "product": "Vambraces of Steady Progression",
-            "amount": 1,
             "essentia": {
                 "perfodio": 48,
                 "instrumentum": 24,
@@ -377,7 +345,6 @@
         },
         "Advanced Node Stabilizer": {
             "product": "Vortex Attenuator",
-            "amount": 1,
             "essentia": {
                 "auram": 64,
                 "machina": 48,
@@ -389,7 +356,6 @@
         },
         "Nether Star Lens": {
             "product": "Wand Focus: Warding",
-            "amount": 1,
             "essentia": {
                 "terra": 30,
                 "ordo": 25,
@@ -400,7 +366,6 @@
         },
         "Nether Brick": {
             "product": "Everfull Urn",
-            "amount": 1,
             "sub": "Flower Pot",
             "essentia": {
                 "aqua": 64,
@@ -412,7 +377,6 @@
         },
         "TPV-Alloy Coil Block": {
             "product": "Everburn Urn",
-            "amount": 1,
             "sub": "Flower Pot",
             "essentia": {
                 "ignis": 64,
@@ -424,7 +388,6 @@
         },
         "Mana Pylon": {
             "product": "Gaia Pylon",
-            "amount": 1,
             "essentia": {
                 "alienis": 64,
                 "vinculum": 64,
@@ -435,7 +398,6 @@
         },
         "Balanced Shard": {
             "product": "Ethereal Shard",
-            "amount": 1,
             "essentia": {
                 "potentia": 32,
                 "vacuos": 32,
@@ -444,7 +406,6 @@
         },
         "Wand Focus: Uprising": {
             "product": "Wand Focus: Distortion",
-            "amount": 1,
             "essentia": {
                 "aer": 32,
                 "tutamen": 32,
@@ -455,7 +416,6 @@
         },
         "Thaumium Sword": {
             "product": "Sword of the Zephyr",
-            "amount": 1,
             "essentia": {
                 "aer": 20,
                 "motus": 20,
@@ -465,7 +425,6 @@
         },
         "Sword of the Zephyr": {
             "product": "Wand Focus: Uprising",
-            "amount": 1,
             "essentia": {
                 "aer": 48,
                 "motus": 32,
@@ -475,7 +434,6 @@
         },
         "Leather Tunic": {
             "product": "Thaumostatic Harness",
-            "amount": 1,
             "essentia": {
                 "machina": 64,
                 "iter": 32,
@@ -486,7 +444,6 @@
         },
         "Obsidian Rod": {
             "product": "Tainted Rod",
-            "amount": 1,
             "essentia": {
                 "perditio": 48,
                 "vitium": 32,
@@ -498,7 +455,6 @@
         },
         "Obsidian Stick": {
             "product": "Obsidian Rod",
-            "amount": 1,
             "essentia": {
                 "terra": 24,
                 "praecantatio": 12,
@@ -508,7 +464,6 @@
         },
         "Inert Void metal Cap": {
             "product": "Charged Void metal Cap",
-            "amount": 1,
             "essentia": {
                 "alienis": 32,
                 "auram": 32,
@@ -518,7 +473,6 @@
         },
         "Ichorcloth": {
             "product": "Ichor Woven Silverwood Wand Core",
-            "amount": 1,
             "sub": "Silverwood Rod",
             "essentia": {
                 "praecantatio": 150,
@@ -530,7 +484,6 @@
         },
         "Block of Diamond": {
             "product": "Beacon",
-            "amount": 1,
             "essentia": {
                 "praecantatio": 64,
                 "alienis": 64,
@@ -542,7 +495,6 @@
         },
         "Electric Piston (MV)": {
             "product": "Arcane Bore",
-            "amount": 1,
             "essentia": {
                 "machina": 64,
                 "perditio": 64,
@@ -553,7 +505,6 @@
         },
         "Arcane Lamp": {
             "product": "Lamp of Growth",
-            "amount": 1,
             "essentia": {
                 "herba": 20,
                 "victus": 20,
@@ -563,7 +514,6 @@
         },
         "Seeds": {
             "product": "Infused Seeds",
-            "amount": 1,
             "essentia": {
                 "messis": 32,
                 "meto": 32,
@@ -572,7 +522,6 @@
         },
         "Ichorcloth Cowl": {
             "product": "Cowl of the Abyssal Depths",
-            "amount": 1,
             "essentia": {
                 "aqua": 64,
                 "auram": 64,
@@ -585,7 +534,6 @@
         },
         "Ichorcloth Robe": {
             "product": "Robes of the Stratosphere",
-            "amount": 1,
             "essentia": {
                 "aer": 64,
                 "alienis": 64,
@@ -598,7 +546,6 @@
         },
         "Ichorcloth Leggings": {
             "product": "Leggings of the Burning Mantle",
-            "amount": 1,
             "essentia": {
                 "alienis": 64,
                 "ignis": 64,
@@ -611,7 +558,6 @@
         },
         "Ichorcloth Boots": {
             "product": "Boots of the Horizontal Shield",
-            "amount": 1,
             "essentia": {
                 "herba": 64,
                 "iter": 64,
@@ -624,7 +570,6 @@
         },
         "Leather Boots": {
             "product": "Boots of the Traveler",
-            "amount": 1,
             "essentia": {
                 "volatus": 25,
                 "aer": 25,
@@ -634,7 +579,6 @@
         },
         "Void Leggings": {
             "product": "Void Thaumaturge Leggings",
-            "amount": 1,
             "essentia": {
                 "alienis": 28,
                 "metallum": 28,
@@ -647,7 +591,6 @@
         },
         "Void Chestplate": {
             "product": "Void Thaumaturge Robe",
-            "amount": 1,
             "essentia": {
                 "alienis": 32,
                 "metallum": 32,
@@ -660,7 +603,6 @@
         },
         "Alchemy Catalyst": {
             "product": "Elven Gateway Core",
-            "amount": 1,
             "essentia": {
                 "iter": 64,
                 "praecantatio": 64,
@@ -671,7 +613,6 @@
         },
         "Goggles of Revealing": {
             "product": "Warped Goggles of Revealing",
-            "amount": 1,
             "essentia": {
                 "alienis": 40,
                 "praecantatio": 32,
@@ -682,7 +623,6 @@
         },
         "Warped Goggles of Revealing": {
             "product": "Voidmetal Goggles of Revealing",
-            "amount": 1,
             "essentia": {
                 "vacuos": 64,
                 "tutamen": 48,
@@ -695,7 +635,6 @@
         },
         "Runic Matrix": {
             "product": "Runic Altar",
-            "amount": 1,
             "essentia": {
                 "herba": 64,
                 "fabrico": 64,
@@ -705,7 +644,6 @@
         },
         "Runic Altar": {
             "product": "Terrestrial Agglomeration Plate",
-            "amount": 1,
             "essentia": {
                 "terra": 64,
                 "lucrum": 64,
@@ -717,7 +655,6 @@
         },
         "Novice Essentia Diffusion Cell": {
             "product": "Adept Essentia Diffusion Cell",
-            "amount": 1,
             "essentia": {
                 "aqua": 64,
                 "vacuos": 64,
@@ -726,7 +663,6 @@
         },
         "Void Plate": {
             "product": "Essentia Reservoir",
-            "amount": 1,
             "sub": "Essentia Buffer",
             "essentia": {
                 "aqua": 16,
@@ -737,7 +673,6 @@
         },
         "Electric Pump (MV)": {
             "product": "Essentia Pump",
-            "amount": 1,
             "sub": "Essentia Buffer",
             "essentia": {
                 "iter": 64,
@@ -747,7 +682,6 @@
         },
         "Essentia Output Hatch": {
             "product": "Essentia Output Hatch (ME)",
-            "amount": 1,
             "essentia": {
                 "potentia": 256,
                 "machina": 256,
@@ -757,7 +691,6 @@
         },
         "Output Hatch (HV)": {
             "product": "Essentia Output Hatch",
-            "amount": 1,
             "essentia": {
                 "aqua": 128,
                 "vacuos": 64,
@@ -767,7 +700,6 @@
         },
         "Thaumium Frame Box": {
             "product": "Novice Essentia Diffusion Cell",
-            "amount": 1,
             "essentia": {
                 "aqua": 32,
                 "vacuos": 32,
@@ -776,7 +708,6 @@
         },
         "Crystalline Brain: Water": {
             "product": "Essentia Locus",
-            "amount": 1,
             "essentia": {
                 "aqua": 32,
                 "praecantatio": 24,
@@ -787,7 +718,6 @@
         },
         "Primal Charm": {
             "product": "Talisman of Nourishment",
-            "amount": 1,
             "essentia": {
                 "fames": 64,
                 "pannus": 48,
@@ -799,7 +729,6 @@
         },
         "Alchemical Furnace": {
             "product": "Thaumium Alchemical Furnace",
-            "amount": 1,
             "essentia": {
                 "ignis": 48,
                 "potentia": 32,
@@ -810,7 +739,6 @@
         },
         "Arcane Pedestal": {
             "product": "Wand Recharge Pedestal",
-            "amount": 1,
             "essentia": {
                 "praecantatio": 20,
                 "permutatio": 15,
@@ -820,7 +748,6 @@
         },
         "Inert Thaumium Cap": {
             "product": "Charged Thaumium Cap",
-            "amount": 1,
             "essentia": {
                 "potentia": 40,
                 "auram": 25,
@@ -829,7 +756,6 @@
         },
         "Vis Relay": {
             "product": "Node Linking Device",
-            "amount": 1,
             "sub": "Node Transducer",
             "essentia": {
                 "potentia": 64,
@@ -841,7 +767,6 @@
         },
         "Molecular Assembler": {
             "product": "Arcane Assembler",
-            "amount": 1,
             "essentia": {
                 "fabrico": 64,
                 "praecantatio": 48,
@@ -854,7 +779,6 @@
         },
         "Tungstensteel Firebox Casing": {
             "product": "Large Essentia Smeltery",
-            "amount": 1,
             "essentia": {
                 "aqua": 256,
                 "ignis": 256,
@@ -866,7 +790,6 @@
         },
         "Hoe of Growth": {
             "product": "Electric Hoe of Growth",
-            "amount": 1,
             "essentia": {
                 "praecantatio": 48,
                 "potentia": 32,
@@ -877,7 +800,6 @@
         },
         "Thaumium Hoe": {
             "product": "Hoe of Growth",
-            "amount": 1,
             "essentia": {
                 "herba": 20,
                 "terra": 20,
@@ -887,7 +809,6 @@
         },
         "Greatwood Smoking Pipe": {
             "product": "Silverwood Smoking Pipe",
-            "amount": 1,
             "essentia": {
                 "ordo": 32,
                 "sano": 16,
@@ -896,7 +817,6 @@
         },
         "Sotatsu's Head": {
             "product": "Tome of Knowledge Sharing",
-            "amount": 1,
             "essentia": {
                 "cognitio": 32,
                 "permutatio": 32,
@@ -906,7 +826,6 @@
         },
         "Silverwood Log": {
             "product": "Silverwood Rod",
-            "amount": 1,
             "essentia": {
                 "aer": 48,
                 "aqua": 48,
@@ -919,7 +838,6 @@
         },
         "Arcane Bellows": {
             "product": "Flux Scrubber",
-            "amount": 1,
             "essentia": {
                 "aqua": 25,
                 "aer": 20,
@@ -930,7 +848,6 @@
         },
         "Node Stabilizer": {
             "product": "Advanced Node Stabilizer",
-            "amount": 1,
             "essentia": {
                 "auram": 32,
                 "ordo": 32,
@@ -940,7 +857,6 @@
         },
         "Emitter (EV)": {
             "product": "Node Manipulator",
-            "amount": 1,
             "sub": "Node Transducer",
             "essentia": {
                 "alienis": 64,
@@ -953,7 +869,6 @@
         },
         "ME Interface": {
             "product": "Essentia Provider",
-            "amount": 1,
             "essentia": {
                 "machina": 64,
                 "praecantatio": 48,
@@ -966,7 +881,6 @@
         },
         "Quantum Core": {
             "product": "Octuple Compressed Solar",
-            "amount": 1,
             "essentia": {
                 "aer": 4800,
                 "terra": 4800,
@@ -978,7 +892,6 @@
         },
         "Irradiant Reinforced Neutronium Plate": {
             "product": "Septuple Compressed Solar",
-            "amount": 1,
             "essentia": {
                 "aer": 2400,
                 "terra": 2400,
@@ -990,7 +903,6 @@
         },
         "Irradiant Reinforced Naquadria Plate": {
             "product": "Sextuple Compressed Solar",
-            "amount": 1,
             "essentia": {
                 "aer": 1200,
                 "terra": 1200,
@@ -1002,7 +914,6 @@
         },
         "Irradiant Reinforced Plate": {
             "product": "Quintuple Compressed Solar",
-            "amount": 1,
             "essentia": {
                 "aer": 600,
                 "terra": 600,
@@ -1014,7 +925,6 @@
         },
         "Irradiant Reinforced Chrome Plate": {
             "product": "Quadruple Compressed Solar",
-            "amount": 1,
             "essentia": {
                 "aer": 300,
                 "terra": 300,
@@ -1026,7 +936,6 @@
         },
         "Irradiant Reinforced Tungsten-Steel Plate": {
             "product": "Triple Compressed Solar Panel",
-            "amount": 1,
             "essentia": {
                 "aer": 150,
                 "terra": 150,
@@ -1050,7 +959,6 @@
         },
         "Ichorium Ingot": {
             "product": "Pure Tear",
-            "amount": 1,
             "sub": "Nether Star",
             "essentia": {
                 "alienis": 32,
@@ -1072,5 +980,5 @@
         "Essentia Buffer": true,
         "Nether Star": true
     },
-    "updated_at": "2024-03-24 09:50:09"
+    "updated_at": "2024-03-24 19:56:03"
 }

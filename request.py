@@ -69,7 +69,9 @@ def serialize(raw_data) -> dict:
         tmp = {}
         recipe = raw_data["contents"][i]
         tmp["product"] = recipe["product"]
-        tmp["amount"] = int(recipe["amount"][0])
+        amount = int(recipe["amount"][0])
+        if amount != 1:
+            tmp["amount"] = amount
         if recipe["sub"] != None:
             tmp["sub"] = recipe["sub"]["key"]
             data["sub"][recipe["sub"]["key"]] = True
