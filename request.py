@@ -1,3 +1,4 @@
+import gzip
 import os
 import sys
 import json
@@ -91,6 +92,9 @@ def serialize(raw_data) -> dict:
 def write_to_file(data):
     f = open('recipes.json', 'w')
     f.write(json.dumps(data, indent=4))
+    f.close()
+    f = gzip.open('recipes.gz', 'w')
+    f.write(json.dumps(data).encode())
     f.close()
 
 
