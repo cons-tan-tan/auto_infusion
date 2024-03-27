@@ -1,9 +1,14 @@
 name: Update Json
 
-on: 
+on:
   workflow_dispatch:
   repository_dispatch:
     types: [update-recipes]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -19,10 +24,17 @@ jobs:
         MICROCMS_API_KEY: ${{ secrets.MICROCMS_API_KEY }}
         DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
       run: python request.py auto
-    - name: Commit and Push
+    - name: Create Pages
       run: |
-        git config --global user.email ${{ secrets.USER_EMAIL }}
-        git config --global user.name ${{ secrets.USER_NAME }}
-        git add recipes.json
-        git commit -m "feat: [auto commitment]"
-        git push origin main
+        mkdir pages
+        mv recipes.json pages/recipes.json
+        echo "hello, github pages" > pages/index.html
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: "pages"
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
