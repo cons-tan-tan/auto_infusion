@@ -28,7 +28,7 @@ jobs:
       run: |
         mkdir pages
         mv recipes.json pages/recipes.json
-        mv recipes.gz pages/recipes.gz
+        mv recipes.json.zlib pages/recipes.json.zlib
         echo "hello, github pages" > pages/index.html
     - name: Setup Pages
       uses: actions/configure-pages@v4

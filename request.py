@@ -1,4 +1,4 @@
-import gzip
+import zlib
 import os
 import sys
 import json
@@ -93,8 +93,8 @@ def write_to_file(data):
     f = open('recipes.json', 'w')
     f.write(json.dumps(data, indent=4))
     f.close()
-    f = gzip.open('recipes.gz', 'w')
-    f.write(json.dumps(data).encode())
+    f = open('recipes.json.zlib', 'wb')
+    f.write(zlib.compress(json.dumps(data).encode()))
     f.close()
 
 
