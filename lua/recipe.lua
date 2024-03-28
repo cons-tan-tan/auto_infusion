@@ -3,8 +3,21 @@ local json = require("json")
 
 local data = {}
 
+local function download()
+    local file_name = "recipes.json"
+    local zlib_name = file_name .. ".zlib"
+    local url = "https://cons-tan-tan.github.io/auto_infusion/" .. zlib_name
+    print("Download " .. url)
+    shell.execute(string.format("wget -f %s > /dev/null", url))
+    print("Inflate " .. zlib_name .. " to " .. file_name)
+    shell.execute(string.format("inflate %s > %s", zlib_name, file_name))
+    print("Remove " .. zlib_name)
+    shell.execute(string.format("rm %s", zlib_name))
+    print("Complete!")
+end
+
 local function update()
-    shell.execute("wget -f https://raw.githubusercontent.com/cons-tan-tan/auto_infusion/main/recipes.json")
+    download()
     local file = io.open("recipes.json", "r")
     if file == nil then
         error("error: file not found", 0)
