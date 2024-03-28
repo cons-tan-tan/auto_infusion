@@ -1,5 +1,7 @@
 __pycache__
 
 .env
+recipes.json
+recipes.json.zlib
 
 lua/json.lua
