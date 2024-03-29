@@ -26,10 +26,8 @@ jobs:
       run: python request.py auto
     - name: Create Pages
       run: |
-        mkdir pages
         mv recipes.json pages/recipes.json
         mv recipes.json.zlib pages/recipes.json.zlib
-        echo "hello, github pages" > pages/index.html
     - name: Setup Pages
       uses: actions/configure-pages@v4
     - name: Upload artifact
